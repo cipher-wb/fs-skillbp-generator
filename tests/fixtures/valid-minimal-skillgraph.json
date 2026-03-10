@@ -1,0 +1,58 @@
+{
+  "nodes": [
+    {
+      "rid": 1000
+    },
+    {
+      "rid": 1001
+    }
+  ],
+  "edges": [],
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": 1000,
+        "type": {
+          "class": "SkillConfigNode",
+          "ns": "NodeEditor",
+          "asm": "NodeEditor"
+        },
+        "data": {
+          "GUID": "11111111-1111-1111-1111-111111111111",
+          "ID": 900001,
+          "Desc": "",
+          "IsTemplate": false,
+          "TemplateFlags": 0,
+          "TemplateParams": [],
+          "TemplateParamsDesc": [],
+          "TemplateParamsCustomAdd": false,
+          "TableTash": "0C2C5D4A7DC9280429315C2EEAD44FDF",
+          "ConfigJson": "{\"ID\":900001,\"SkillMainType\":1,\"SkillSubType\":102,\"SkillCastFrame\":0,\"SkillBufferFrame\":0,\"SkillBaseDuration\":20,\"CdTime\":60,\"AISkillRange\":600,\"SkillRange\":600,\"SkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":900010},\"SkillNameEditor\":\"测试直线技能\",\"SkillDescEditor\":\"最小合法技能。\"}",
+          "Config2ID": "SkillConfig_900001"
+        }
+      },
+      {
+        "rid": 1001,
+        "type": {
+          "class": "SkillEffectConfigNode",
+          "ns": "NodeEditor",
+          "asm": "NodeEditor"
+        },
+        "data": {
+          "GUID": "22222222-2222-2222-2222-222222222222",
+          "ID": 900010,
+          "Desc": "",
+          "IsTemplate": false,
+          "TemplateFlags": 0,
+          "TemplateParams": [],
+          "TemplateParamsDesc": [],
+          "TemplateParamsCustomAdd": false,
+          "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+          "ConfigJson": "{\"ID\":900010,\"SkillEffectType\":11,\"Params\":[]}",
+          "Config2ID": "SkillEffectConfig_900010"
+        }
+      }
+    ]
+  }
+}

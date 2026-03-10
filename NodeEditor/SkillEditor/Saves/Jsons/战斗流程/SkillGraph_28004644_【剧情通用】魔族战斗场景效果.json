@@ -1,0 +1,141 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "5b635f52-29a8-4dd7-9312-cee39f9d7edf",
+            "inputNodeGUID": "b632acbf-1a22-4928-aad1-d29f9b317582",
+            "outputNodeGUID": "c4160387-2f57-40c0-b8f7-5eb8e400a0dc",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/战斗流程/SkillGraph_28004644_【剧情通用】魔族战斗场景效果.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "c4160387-2f57-40c0-b8f7-5eb8e400a0dc",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28004644,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28004644,\"SkillEffectType\":1,\"Params\":[{\"Value\":28004649,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28004644",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_APPLY_SCREEN_EFFECT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "b632acbf-1a22-4928-aad1-d29f9b317582",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 283.0,
+                        "y": -121.0,
+                        "width": 314.0,
+                        "height": 215.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28004649,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28004649,\"SkillEffectType\":19,\"Params\":[{\"Value\":75,\"ParamType\":1,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":11,\"ParamType\":0,\"Factor\":0},{\"Value\":999999,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28004649",
+                    "SkillEffectType": 19
+                }
+            }
+        ]
+    }
+}

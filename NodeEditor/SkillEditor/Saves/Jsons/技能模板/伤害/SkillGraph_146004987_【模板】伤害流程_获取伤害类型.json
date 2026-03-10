@@ -1,0 +1,297 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "45cd466e-7480-4487-8ae3-4686f1575977",
+            "inputNodeGUID": "47c74d65-36ae-42e4-a78b-cc8d7363b333",
+            "outputNodeGUID": "62af25fa-56a5-49a8-9629-ae852f857ae3",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "5895986f-3d52-47c8-9416-c50e557f69cf",
+            "inputNodeGUID": "08dc5571-3584-4de5-87fb-e2cac099e00b",
+            "outputNodeGUID": "62af25fa-56a5-49a8-9629-ae852f857ae3",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "1",
+            "isVisible": true
+        },
+        {
+            "GUID": "916b57b7-6e45-4869-b2fa-cab63fbc5311",
+            "inputNodeGUID": "5a43adff-b84a-4902-81cc-dee58731dcf8",
+            "outputNodeGUID": "62af25fa-56a5-49a8-9629-ae852f857ae3",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/伤害/SkillGraph_146004987_【模板】伤害流程_获取伤害类型.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_CONDITION_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "62af25fa-56a5-49a8-9629-ae852f857ae3",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146004987,
+                    "Desc": "",
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "伤害来源",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":1,\"ParamType\":4,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "目标单位",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":2,\"ParamType\":4,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "伤害类型（0随技能）",
+                            "RefTypeName": "TSkillDamageType",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":3,\"ParamType\":4,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": true,
+                            "RefTableFullName": "TableDR.TSkillDamageType",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "伤害来源",
+                        "目标单位",
+                        "伤害类型（0随技能）"
+                    ],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146004987,\"SkillEffectType\":47,\"Params\":[{\"Value\":1460962,\"ParamType\":0,\"Factor\":0},{\"Value\":146004996,\"ParamType\":0,\"Factor\":0},{\"Value\":146005003,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146004987",
+                    "SkillEffectType": 47
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSCT_VALUE_COMPARE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "47c74d65-36ae-42e4-a78b-cc8d7363b333",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 406.5,
+                        "y": -127.5,
+                        "width": 295.0,
+                        "height": 142.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1460962,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":1460962,\"SkillConditionType\":7,\"Params\":[{\"Value\":3,\"ParamType\":4,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_1460962",
+                    "SkillConditionType": 7
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_GET_SKILL_DAMAGE_TYPE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "08dc5571-3584-4de5-87fb-e2cac099e00b",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 407.0,
+                        "y": 23.0,
+                        "width": 314.0,
+                        "height": 94.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146004996,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146004996,\"SkillEffectType\":217,\"Params\":[{\"Value\":7,\"ParamType\":5,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146004996",
+                    "SkillEffectType": 217
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5a43adff-b84a-4902-81cc-dee58731dcf8",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 407.0,
+                        "y": 128.0,
+                        "width": 307.0,
+                        "height": 94.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146005003,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146005003,\"SkillEffectType\":31,\"Params\":[{\"Value\":3,\"ParamType\":4,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146005003",
+                    "SkillEffectType": 31
+                }
+            }
+        ]
+    }
+}

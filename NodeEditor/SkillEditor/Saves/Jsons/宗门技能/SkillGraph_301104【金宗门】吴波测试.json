@@ -1,0 +1,1296 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        },
+        {
+            "rid": 1005
+        },
+        {
+            "rid": 1006
+        },
+        {
+            "rid": 1007
+        },
+        {
+            "rid": 1008
+        },
+        {
+            "rid": 1009
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "82dda5f2-fd56-4786-896d-2d08a9c82b4b",
+            "inputNodeGUID": "bff32cbf-e9cd-49a0-a5b7-7705e531e80f",
+            "outputNodeGUID": "8c652581-3ba1-45cf-8f68-54764b6f791f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "dac134ae-545f-4e65-a803-9a07226d09b0",
+            "inputNodeGUID": "ed7833de-03ff-4aa6-8893-28bbd5521474",
+            "outputNodeGUID": "bff32cbf-e9cd-49a0-a5b7-7705e531e80f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "5",
+            "isVisible": true
+        },
+        {
+            "GUID": "358de3f0-47bb-4cde-be53-0d65c9478c85",
+            "inputNodeGUID": "950ee729-6f02-43c2-bba4-520337c89fbf",
+            "outputNodeGUID": "8c652581-3ba1-45cf-8f68-54764b6f791f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "8565fb15-5bfa-42e1-bad7-859a1eff1da3",
+            "inputNodeGUID": "8c652581-3ba1-45cf-8f68-54764b6f791f",
+            "outputNodeGUID": "26026b76-05fb-405c-b497-c2ba0a540c80",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        },
+        {
+            "GUID": "29a90f05-f297-4659-8f20-40f55af2791e",
+            "inputNodeGUID": "862966e8-5f16-4b39-901e-02e4d6118f79",
+            "outputNodeGUID": "cf8733d6-8e12-4487-8c38-8b2bcd89acb9",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "97ea0886-c0ec-4940-bffd-55fd6dc37584",
+            "inputNodeGUID": "644dbf8d-a2f5-492c-bf2b-d8aa8408a744",
+            "outputNodeGUID": "862966e8-5f16-4b39-901e-02e4d6118f79",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "Model",
+            "isVisible": true
+        },
+        {
+            "GUID": "34c4a4d1-62dd-4831-80ce-a53d157a1613",
+            "inputNodeGUID": "32529009-7993-4fc0-b2e5-d0c146e6fabc",
+            "outputNodeGUID": "94bca751-21bd-4743-b227-5982503d6b7f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "SkillEffectExecuteInfo.SkillEffectConfigID",
+            "isVisible": true
+        },
+        {
+            "GUID": "27732491-c226-4d4f-a190-ae28c86f0e12",
+            "inputNodeGUID": "cf8733d6-8e12-4487-8c38-8b2bcd89acb9",
+            "outputNodeGUID": "32529009-7993-4fc0-b2e5-d0c146e6fabc",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "d9b257f2-d201-4db3-8cc2-d6d2225e37ae",
+            "inputNodeGUID": "26026b76-05fb-405c-b497-c2ba0a540c80",
+            "outputNodeGUID": "862966e8-5f16-4b39-901e-02e4d6118f79",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "AfterBornSkillEffectExecuteInfo.SkillEffectConfigID",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "2116656e-0b4d-4448-81e7-f033e096efe7",
+            "title": "所有伤害都用这3个模板拼起来",
+            "color": {
+                "r": 1.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 1154.2174072265625,
+                "y": 1124.1475830078125,
+                "width": 400.0,
+                "height": 200.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "bff32cbf-e9cd-49a0-a5b7-7705e531e80f",
+                "950ee729-6f02-43c2-bba4-520337c89fbf",
+                "26026b76-05fb-405c-b497-c2ba0a540c80",
+                "8c652581-3ba1-45cf-8f68-54764b6f791f",
+                "ed7833de-03ff-4aa6-8893-28bbd5521474"
+            ],
+            "innerStickyNoteGUIDs": []
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 4.0,
+                "y": 44.0,
+                "width": 293.0,
+                "height": 359.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/宗门技能/SkillGraph_301104【金宗门】吴波测试.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SkillConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "94bca751-21bd-4743-b227-5982503d6b7f",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -2197.326904296875,
+                        "y": 728.4999389648438,
+                        "width": 290.0,
+                        "height": 447.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": -213.0,
+                        "y": 411.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 320007,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0C2C5D4A7DC9280429315C2EEAD44FDF",
+                    "ConfigJson": "{\"SkillXinfaType\":0,\"ID\":320007,\"SkillNameKey\":0,\"SkillDescKey\":0,\"Icon\":\"Skill/GongFa/Mu/skill_mu_302302\",\"ElementType\":0,\"SkillSchoolResType\":0,\"FeatureLabel\":0,\"BDLabels\":[],\"SkillAITags\":[],\"DamageType\":1,\"SkillMainType\":0,\"SkillSubType\":0,\"MPCost\":0,\"HunLiValue\":0,\"SectXinfaEnergyValue\":0,\"SkillCastFrame\":0,\"SkillBufferStartFrame\":0,\"SkillBufferFrame\":0,\"SkillBaseDuration\":0,\"SkillCastIsNotInterruptable\":false,\"IsSkillBufferFrameCanMove\":false,\"CdType\":3,\"CdTime\":0,\"ComboCdList\":[],\"CDMaxStoreCount\":0,\"SkillFixCdTime\":0,\"SkillRange\":400,\"SkillMinRange\":0,\"AISkillRange\":400,\"ExtraAlertRange\":0,\"IsCloseChaseInAlertRange\":false,\"NeedTargetInRange\":false,\"IsSkillCastNoTargetInIdle\":false,\"Condition\":0,\"AICastCondition\":0,\"SkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":32001592},\"SkillEffectPassiveExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"SkillEffectOnUnEquip\":0,\"ChantCounterValuesList\":[],\"LGDamageValuesList\":[],\"SkillDamageTagsList\":[],\"SkillTagsList\":[],\"SkillTipsConditionSkillTagsList\":[],\"TalentKeyWord\":[],\"UseSkillSpeedDownValue\":0,\"UseSkillSpeedDownTime\":0,\"SkillIndicatorType\":3,\"SkillIndicatorParam\":[100],\"SkillIndicatorParamTagConfigIds\":[],\"SkillIndicatorResParam\":[0,0],\"SkillIndicatorResParamTagConfigIds\":[],\"LockEntityAfterUseSkillDuration\":0,\"LockEntityPosTypeAfterUseSkill\":0,\"SkillEffectOnSkillCastInterrupt\":0,\"UseSkillForbidUpdateFaceDir\":false,\"UseType\":0,\"ButtonUpConfig\":0,\"InterruptConfig\":0,\"ReActiveConfig\":0,\"SkillQuality\":0,\"IsPassiveSkillHideCD\":false,\"IsPassiveSkillNotRunByCD\":false,\"SkillProperty\":0,\"SkillRangeTagConfigId\":0,\"SkillMinRangeTagConfigId\":0,\"SmartCastTargetBasePriority\":3,\"SmartCastTargetCondTemplate\":1,\"SmartCastTargetMonsterRankCond\":[16,15,14,13,12,11,4,5,6,0],\"SmartCastTargetCampCond\":[2],\"SmartCastNoTargetIndicatorPos\":0,\"SmartCastNoTargetCancelUse\":false,\"CastTargetCondTemplate\":1,\"CastTargetMonsterRankCond\":[16,15,14,13,12,11,4,5,6,0],\"CastTargetCampCond\":[2],\"IsHideContinueUseSkillHeadBar\":false,\"SkillPriority\":0,\"EnhanceSkillBuffConfigID\":0,\"StatisticsDamageAloneForSummon\":false,\"SkillNameEditor\":\"测试\",\"SkillDescEditor\":\"吴波测试。\"}",
+                    "Config2ID": "SkillConfig_320007"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "32529009-7993-4fc0-b2e5-d0c146e6fabc",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -1839.8729248046875,
+                        "y": 952.407958984375,
+                        "width": 258.0,
+                        "height": 94.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001592,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001592,\"SkillEffectType\":1,\"Params\":[{\"Value\":32001604,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001592",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "bff32cbf-e9cd-49a0-a5b7-7705e531e80f",
+                    "computeOrder": 6,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1713.01708984375,
+                        "y": 1217.407958984375,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001601,
+                    "Desc": "SkillGraph_【模板】子弹通用逻辑-表现.json",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001601,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":190016523,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":3200236,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":100,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":30,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001601",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自定义额外效果",
+                                "RefTypeName": "SkillEffectConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.SkillEffectConfig",
+                                "RefTableManagerName": "TableDR.SkillEffectConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "基础模式(0:命中目标才播放|1:打空也播放)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "命中特效-资源",
+                                "RefTypeName": "ModelConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.ModelConfig",
+                                "RefTableManagerName": "TableDR.ModelConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "命中特效-位置",
+                                "RefTypeName": "TBattleHitEffectPosType",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":2,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TBattleHitEffectPosType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "命中特效-缩放(百分比)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":100,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "喷射特效强度(0:无|1:轻微(未实现)|2:正常)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":2,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "顿帧时长(帧)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击震屏-方向（0:上下|1:左右|2:同时）",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击震屏-强度(0~5)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击震屏-时长(帧)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "主角是否参与命中顿帧(0:否|1:是，推荐远程0近战1)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击动作级别(0:无|1:轻微不打断|2:重击硬直|3:超重击飞",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "击退表现力度(0~5)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击音效",
+                                "RefTypeName": "VoiceConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.VoiceConfig",
+                                "RefTableManagerName": "TableDR.VoiceConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "屏幕模糊时长",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "波纹范围(米)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "波纹速度(米/秒)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "受击者是否屏幕闪红",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "波纹强度(标准:30)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":30,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "击杀效果(0:爆体|1:溶解)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_【模板】子弹通用逻辑-表现.json"
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_CREATE_BULLET",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "cf8733d6-8e12-4487-8c38-8b2bcd89acb9",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -418.325439453125,
+                        "y": 782.4080200195313,
+                        "width": 375.0,
+                        "height": 430.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001604,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001604,\"SkillEffectType\":8,\"Params\":[{\"Value\":320081,\"ParamType\":0,\"Factor\":0},{\"Value\":91,\"ParamType\":1,\"Factor\":0},{\"Value\":59,\"ParamType\":1,\"Factor\":0},{\"Value\":60,\"ParamType\":1,\"Factor\":0},{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":41,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":200,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001604",
+                    "SkillEffectType": 8
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "BulletConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "862966e8-5f16-4b39-901e-02e4d6118f79",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 123.01708984375,
+                        "y": 782.4080200195313,
+                        "width": 363.0,
+                        "height": 375.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 2422.0,
+                        "y": 695.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 320081,
+                    "Desc": "设置子弹速度，加速度，存在时间",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "256F7FF46154A0D338F4F51F5504DE97",
+                    "ConfigJson": "{\"ID\":320081,\"FlyType\":2,\"IsAiEscape\":false,\"AngleAdjustType\":0,\"Speed\":2500,\"AcceSpeed\":0,\"MaxSpeed\":2500,\"TurnSpeed\":500,\"TurnAcceSpeed\":1000,\"MaxTurnSpeed\":10000,\"IsCloseTurnAutoHit\":false,\"PitchTurnSpeed\":0,\"PitchTurnAcceSpeed\":0,\"PitchMaxTurnSpeed\":0,\"IsOpenPhysicalReflect\":false,\"PhysicalReflectCount\":1,\"PhysicalReflectEndActionType\":0,\"TracePathType\":0,\"TracePathParams\":[],\"LastTime\":150,\"delayDestroyTime\":30,\"DestroyWhenCreatorDie\":false,\"Hp\":1,\"ATK\":0,\"BeforeBornSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"AfterBornSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":32001606},\"DieSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"Model\":3200237,\"ModelBaseScalePercent\":0,\"ChainModel\":0,\"ChainModelScalePercent\":0,\"ChainTilingFactor\":0,\"DisappearEffect\":0,\"ModelSound\":0,\"DisappearSound\":0,\"LifeFlag\":1,\"MaxDistance\":0,\"TrackEntityNoTargetSkillEffectConfigID\":0}",
+                    "Config2ID": "BulletConfig_320081"
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "950ee729-6f02-43c2-bba4-520337c89fbf",
+                    "computeOrder": 7,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1713.01708984375,
+                        "y": 672.4080200195313,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001602,
+                    "Desc": "SkillGraph_【模板】子弹通用逻辑-伤害.json",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001602,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":190016485,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":6,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":-1,\"ParamType\":0,\"Factor\":0},{\"Value\":-1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":-1,\"ParamType\":0,\"Factor\":0},{\"Value\":-1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001602",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "本子弹序号(用于区分多个子弹，最大3)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "伤害来源",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":6,\"ParamType\":5,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "伤害类型(0随技能)",
+                                "RefTypeName": "TSkillDamageType",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TSkillDamageType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "伤害五行(0随技能|1金2木3水4火5土)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "伤害子类型位组Flags",
+                                "RefTypeName": "TSkillDamageSubType",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":128,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TSkillDamageSubType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自定义威力系数(-1读参数)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":-1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自定义额外伤害(-1读参数)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":-1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能增伤-触发条件",
+                                "RefTypeName": "SkillConditionConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.SkillConditionConfig",
+                                "RefTableManagerName": "TableDR.SkillConditionConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能增伤-形式(1:B类增伤|2: C类增伤|3:最终倍率)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能增伤-值(万分比)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "命中后是否销毁",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自定义护体灵光削减倍率(-1读参数)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":-1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "吟唱反制打断值(-1读Index=0的值)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":-1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_【模板】子弹通用逻辑-伤害.json"
+                    }
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "26026b76-05fb-405c-b497-c2ba0a540c80",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 918.01708984375,
+                        "y": 1018.9080200195313,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001606,
+                    "Desc": "SkillGraph_【模板】子弹通用逻辑-碰撞.json",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001606,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":190016404,\"ParamType\":0,\"Factor\":0},{\"Value\":32001603,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":30,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":10,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001606",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "命中后功能",
+                                "RefTypeName": "SkillEffectConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.SkillEffectConfig",
+                                "RefTableManagerName": "TableDR.SkillEffectConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "碰撞范围类型",
+                                "RefTypeName": "TTriggerType",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TTriggerType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "参数1(圆形:半径|矩形:长|扇形:半径|环形:内径)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "参数2(圆形: 无|矩形:宽|扇形:角度|环形:宽度)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "参数3(圆形: 无|矩形:朝向偏移|扇形:朝向偏移|环形:无)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "位置偏移_ 右侧",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "位置偏移_ 面前",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "目标单位类型（0敌军|1所有|2友军|3自己|4|友军+自己）",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自定义条件",
+                                "RefTypeName": "SkillConditionConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.SkillConditionConfig",
+                                "RefTableManagerName": "TableDR.SkillConditionConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "是否跟随创建者飞行",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "侦测间隔(帧)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "侦测冷却(帧)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":10,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "侦测次数(0:与子弹寿命一致)",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_【模板】子弹通用逻辑-碰撞.json"
+                    }
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "ModelConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "644dbf8d-a2f5-492c-bf2b-d8aa8408a744",
+                    "computeOrder": 8,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 536.01708984375,
+                        "y": 544.4080200195313,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 3200237,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "C94DC21B86D61560EE7EB578551480C6",
+                    "ConfigJson": "{\"SheetRowIndex\":0,\"ID\":3200237,\"ModelTopUIHeight\":0,\"InteractionRange\":0,\"ModelInitAngle\":0,\"ModelPath\":\"Effect/E_level_drop_hp\",\"IsLoadModelSync\":false,\"DeathEffectId\":0,\"DeathTime\":0,\"ModelAmplify\":0,\"ReadyScale\":0,\"BodyType\":2,\"BodyLevelType\":0,\"BodyForceMoveFactor\":100,\"FixtureConfigId\":[],\"InEyeModelId\":0,\"ModelBornAudio\":0,\"ModelLoopAudio\":0,\"ModelDeathAudio\":0,\"AttachPos\":0,\"Flags\":0,\"HitEffectAmplify\":100,\"BattleStateBaseSpeed\":0,\"NormalStateBaseSpeed\":0,\"LockCircleRadius\":0,\"IsFollowScale\":false,\"IsFollowAnim\":false,\"MapAnimType\":0,\"MapAnimSubType\":0,\"SelectLevel\":0,\"IsNotBias\":0,\"IsDeadDelete\":false,\"ViewEventTargetType\":0,\"DisappearType\":1,\"BaseScale\":0,\"MapCollider\":[],\"MapStartSoundID\":0,\"MapDestroySoundID\":0,\"MapTriggerSoundID\":0,\"TransformType\":2,\"MonsterSect\":0}",
+                    "Config2ID": "ModelConfig_3200237"
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "8c652581-3ba1-45cf-8f68-54764b6f791f",
+                    "computeOrder": 5,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1406.01708984375,
+                        "y": 1229.407958984375,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 32001603,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":32001603,\"SkillEffectType\":1,\"Params\":[{\"Value\":32001602,\"ParamType\":0,\"Factor\":0},{\"Value\":32001601,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_32001603",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ModelConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "ed7833de-03ff-4aa6-8893-28bbd5521474",
+                    "computeOrder": 9,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 2194.01708984375,
+                        "y": 1457.407958984375,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 3200236,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "C94DC21B86D61560EE7EB578551480C6",
+                    "ConfigJson": "{\"SheetRowIndex\":0,\"ID\":3200236,\"ModelTopUIHeight\":0,\"InteractionRange\":0,\"ModelInitAngle\":0,\"ModelPath\":\"Effect/20103_skill1_hit\",\"IsLoadModelSync\":false,\"DeathEffectId\":0,\"DeathTime\":0,\"ModelAmplify\":0,\"ReadyScale\":0,\"BodyType\":2,\"BodyLevelType\":0,\"BodyForceMoveFactor\":100,\"FixtureConfigId\":[],\"InEyeModelId\":0,\"ModelBornAudio\":0,\"ModelLoopAudio\":0,\"ModelDeathAudio\":0,\"AttachPos\":0,\"Flags\":0,\"HitEffectAmplify\":100,\"BattleStateBaseSpeed\":0,\"NormalStateBaseSpeed\":0,\"LockCircleRadius\":0,\"IsFollowScale\":false,\"IsFollowAnim\":false,\"MapAnimType\":0,\"MapAnimSubType\":0,\"SelectLevel\":0,\"IsNotBias\":0,\"IsDeadDelete\":false,\"ViewEventTargetType\":0,\"DisappearType\":1,\"BaseScale\":0,\"MapCollider\":[],\"MapStartSoundID\":0,\"MapDestroySoundID\":0,\"MapTriggerSoundID\":0,\"TransformType\":2,\"MonsterSect\":0}",
+                    "Config2ID": "ModelConfig_3200236"
+                }
+            }
+        ]
+    }
+}

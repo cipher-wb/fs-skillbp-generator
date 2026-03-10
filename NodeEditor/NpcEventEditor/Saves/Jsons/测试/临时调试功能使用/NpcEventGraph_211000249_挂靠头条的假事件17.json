@@ -1,0 +1,787 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        },
+        {
+            "rid": 1005
+        },
+        {
+            "rid": 1006
+        },
+        {
+            "rid": 1007
+        },
+        {
+            "rid": 1008
+        },
+        {
+            "rid": 1009
+        },
+        {
+            "rid": 1010
+        },
+        {
+            "rid": 1011
+        },
+        {
+            "rid": 1012
+        },
+        {
+            "rid": 1013
+        },
+        {
+            "rid": 1014
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "c22d11df-3a29-4a3e-af45-d490a6c84641",
+            "inputNodeGUID": "f07332e9-bc86-4d53-b1d6-76b9a83e9f44",
+            "outputNodeGUID": "93de8c92-5342-4b9c-b203-f41ac406aeab",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "LinkActor",
+            "isVisible": true
+        },
+        {
+            "GUID": "b4cf5269-3a17-4601-83fa-a4d391a25e85",
+            "inputNodeGUID": "6c628b32-a148-4dd7-820b-3fcbd5264276",
+            "outputNodeGUID": "f07332e9-bc86-4d53-b1d6-76b9a83e9f44",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ActorCondition",
+            "isVisible": true
+        },
+        {
+            "GUID": "9b409ed5-89d2-407d-863d-64da35c22648",
+            "inputNodeGUID": "1c335fa9-2ae2-4e64-9029-be3e1386f9d2",
+            "outputNodeGUID": "6c628b32-a148-4dd7-820b-3fcbd5264276",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ConditionID",
+            "isVisible": true
+        },
+        {
+            "GUID": "618453e3-1772-4d40-82c4-a3166f1ce02a",
+            "inputNodeGUID": "be7fc956-7695-4c0a-810b-e8eda7497823",
+            "outputNodeGUID": "1c335fa9-2ae2-4e64-9029-be3e1386f9d2",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "FormulaID",
+            "isVisible": true
+        },
+        {
+            "GUID": "d3500082-3140-4968-b5c2-024e896ea4e1",
+            "inputNodeGUID": "5a0ca278-aafd-47ec-9362-fb938a45b376",
+            "outputNodeGUID": "f07332e9-bc86-4d53-b1d6-76b9a83e9f44",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "FirstGroupID",
+            "isVisible": true
+        },
+        {
+            "GUID": "65ec2c0d-c1c1-468a-be4e-82f6f0e5077d",
+            "inputNodeGUID": "8490e77d-b7a5-45a6-9013-61292b766dfa",
+            "outputNodeGUID": "5a0ca278-aafd-47ec-9362-fb938a45b376",
+            "inputFieldName": "ID",
+            "outputFieldName": "ConnectedGroupIDS",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ConnectedGroupIDS",
+            "isVisible": true
+        },
+        {
+            "GUID": "e8e2588e-0638-4745-b597-bd6f44cafdb4",
+            "inputNodeGUID": "63e079c3-3682-4184-b123-70eecac5f671",
+            "outputNodeGUID": "8490e77d-b7a5-45a6-9013-61292b766dfa",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ActionList",
+            "isVisible": true
+        },
+        {
+            "GUID": "29aa2bd4-ee0f-4957-8517-7073ab65d1e9",
+            "inputNodeGUID": "c69406bb-1316-4192-b069-1d3957c77f53",
+            "outputNodeGUID": "63e079c3-3682-4184-b123-70eecac5f671",
+            "inputFieldName": "ID",
+            "outputFieldName": "SubActions",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "SubActions",
+            "isVisible": true
+        },
+        {
+            "GUID": "53cd7f9c-679f-41af-a8ac-049fb5df271b",
+            "inputNodeGUID": "bca41511-945e-43af-9a8a-24dd722bedd1",
+            "outputNodeGUID": "c69406bb-1316-4192-b069-1d3957c77f53",
+            "inputFieldName": "ID",
+            "outputFieldName": "NpcTalkGroupID",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "NpcTalkGroupID",
+            "isVisible": true
+        },
+        {
+            "GUID": "a95c9208-af81-43cc-b6ca-35706fe9485a",
+            "inputNodeGUID": "a245c4ce-fcf4-49e0-afb8-6b10aa0ebd57",
+            "outputNodeGUID": "bca41511-945e-43af-9a8a-24dd722bedd1",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "TalkIDs",
+            "isVisible": true
+        },
+        {
+            "GUID": "932cd061-ec95-44f7-b3fb-fa06f28bfb3e",
+            "inputNodeGUID": "b81ccfd2-78c1-4c61-a891-3cb882945185",
+            "outputNodeGUID": "93de8c92-5342-4b9c-b203-f41ac406aeab",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ActorFormation",
+            "isVisible": true
+        },
+        {
+            "GUID": "c7b27104-2df1-4c87-b709-e9589f89aa24",
+            "inputNodeGUID": "1b5982ff-521c-46af-a642-f0c0bdf7e847",
+            "outputNodeGUID": "93de8c92-5342-4b9c-b203-f41ac406aeab",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "PlayerConditionID",
+            "isVisible": true
+        },
+        {
+            "GUID": "e53e40f9-ad3d-4c02-b167-a42dcb580f7b",
+            "inputNodeGUID": "8e37702c-518b-4a94-8787-e5c545cfea5b",
+            "outputNodeGUID": "1b5982ff-521c-46af-a642-f0c0bdf7e847",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ConditionID",
+            "isVisible": true
+        },
+        {
+            "GUID": "7b3a1ec6-6e64-4a28-a009-dedcb6c3bfe7",
+            "inputNodeGUID": "e5c06e8a-90c2-4624-b182-0b88c8c73637",
+            "outputNodeGUID": "8e37702c-518b-4a94-8787-e5c545cfea5b",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "FormulaID",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/NpcEventEditor/Saves/Jsons/测试/临时调试功能使用/NpcEventGraph_211000249_挂靠头条的假事件17.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "NpcEventConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "93de8c92-5342-4b9c-b203-f41ac406aeab",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -73.64181518554688,
+                        "y": 11.835290908813477,
+                        "width": 259.0,
+                        "height": 243.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000249,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "F89AD526B780AA88A8941099B36C095E",
+                    "ConfigJson": "{\"ID\":211000249,\"Close\":false,\"AIPriority\":0,\"EventType\":0,\"MainFirstGroupID\":0,\"StroyEntrance\":0,\"LinkActor\":[211000863],\"DynamicActor\":false,\"PlayerConditionID\":211000779,\"EndCondition\":[0],\"TriggerType\":0,\"StartGeneralFuncs\":0,\"EndGeneralFuncs\":0,\"ActorFormation\":1940003,\"LogMark\":1001,\"BeginPerformanceGroupID\":[2110053],\"StandbyPerformanceGroupID\":[2110053]}",
+                    "Config2ID": "NpcEventConfig_211000249"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "NpcEventLinkConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "f07332e9-bc86-4d53-b1d6-76b9a83e9f44",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 374.0,
+                        "y": -68.0,
+                        "width": 296.0,
+                        "height": 171.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000863,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "4112DBCDA4375F531855895347BBA855",
+                    "ConfigJson": "{\"ID\":211000863,\"ActorCondition\":211000778,\"ActorConditionType\":0,\"FirstGroupID\":211001039,\"GlobalEventEndGroupID\":0,\"AutoFinishTypes\":[1],\"ActorParam\":[],\"LinkActorParamDes\":[],\"BackHome\":true,\"Interactive\":true,\"NpcTemplateID\":0,\"RandomPointID\":0,\"RelativeCoordX\":0,\"RelativeCoordY\":0,\"ScreenRange\":0}",
+                    "Config2ID": "NpcEventLinkConfig_211000863",
+                    "NpcTemplateIDS": []
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "MapEventConditionGroupConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "6c628b32-a148-4dd7-820b-3fcbd5264276",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 784.0,
+                        "y": -124.0,
+                        "width": 209.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000778,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "2ABDD98E4919746DA90B868DC1F8E125",
+                    "ConfigJson": "{\"ID\":211000778,\"ConditionID\":[211000806]}",
+                    "Config2ID": "MapEventConditionGroupConfig_211000778"
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "MapEventConditionConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "1c335fa9-2ae2-4e64-9029-be3e1386f9d2",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1050.0,
+                        "y": -191.0,
+                        "width": 221.0,
+                        "height": 99.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000806,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "4214372FC9EE4685BAED2AD276C3B296",
+                    "ConfigJson": "{\"ID\":211000806,\"GameEntityType\":5,\"SubGameEntityType\":0,\"FormulaID\":[211001449]}",
+                    "Config2ID": "MapEventConditionConfig_211000806",
+                    "NpcTemplateID": 0
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "MapEventFormulaConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "be7fc956-7695-4c0a-810b-e8eda7497823",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1348.0,
+                        "y": -161.5,
+                        "width": 167.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001449,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "B15AC72C592157A0CD2D2B0DF46902DC",
+                    "ConfigJson": "{\"ID\":211001449,\"ConditionType\":19,\"FormulaA\":[],\"FormulaB\":[0],\"FormulaC\":[],\"FormulaD\":[],\"FormulaE\":[],\"LogicOp\":0}",
+                    "Config2ID": "MapEventFormulaConfig_211001449"
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "NpcEventActionGroupIndexConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5a0ca278-aafd-47ec-9362-fb938a45b376",
+                    "computeOrder": 5,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 816.0,
+                        "y": 69.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001039,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "550C44EEEDC8A7BBC2FDAC34D3B77227",
+                    "ConfigJson": "{\"ID\":211001039,\"ActionGroupType\":1}",
+                    "Config2ID": "NpcEventActionGroupIndexConfig_211001039",
+                    "ConnectedGroupIDS": 0
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "NpcEventActionGroupConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "8490e77d-b7a5-45a6-9013-61292b766dfa",
+                    "computeOrder": 6,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1016.0,
+                        "y": 69.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001085,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "693E04BEC42686EDBA74692F93146D15",
+                    "ConfigJson": "{\"ID\":211001085,\"ActionGroupID\":211001039,\"ActionGroupType\":1,\"ActionList\":[211001630],\"ActionChooseConditionType\":0,\"NextGroupID\":0,\"Marks\":[]}",
+                    "Config2ID": "NpcEventActionGroupConfig_211001085"
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "TEVAT_JUSTWAIT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "63e079c3-3682-4184-b123-70eecac5f671",
+                    "computeOrder": 7,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1266.0,
+                        "y": 69.0,
+                        "width": 199.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001630,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "AEB64A22748E7D216DACFC7CBF8C1B9B",
+                    "ConfigJson": "{\"ID\":211001630,\"ActionType\":6,\"Param\":[],\"AIParamsID\":[10004,0],\"SubActions\":[211001631],\"Life\":0,\"EvoLife\":1,\"WalkState\":0,\"ActiveInteract\":true,\"TriggerInteract\":false}",
+                    "Config2ID": "NpcEventActionConfig_211001630",
+                    "SubActions": 0
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "TEVAT_DIALOG",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "c69406bb-1316-4192-b069-1d3957c77f53",
+                    "computeOrder": 8,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1478.0,
+                        "y": 69.0,
+                        "width": 199.0,
+                        "height": 99.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001631,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "AEB64A22748E7D216DACFC7CBF8C1B9B",
+                    "ConfigJson": "{\"ID\":211001631,\"ActionType\":9,\"Param\":[211001100],\"AIParamsID\":[0,0],\"SubActions\":[],\"Life\":0,\"EvoLife\":0,\"WalkState\":0,\"ActiveInteract\":true,\"TriggerInteract\":false}",
+                    "Config2ID": "NpcEventActionConfig_211001631",
+                    "SubActions": 0,
+                    "NpcTalkGroupID": 0
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "NpcTalkGroupConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "bca41511-945e-43af-9a8a-24dd722bedd1",
+                    "computeOrder": 9,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1677.0,
+                        "y": 69.0,
+                        "width": 207.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001100,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "2BD1CA04FD1AFFE29F15F6303ABACEE2",
+                    "ConfigJson": "{\"ID\":211001100,\"IsLoop\":false,\"IsOrder\":false,\"IsSoliloquy\":false,\"RandomIntervalSecs\":[],\"DescKey\":0,\"TitleKey\":0,\"TalkIDs\":[211001171],\"HideExit\":false,\"RandomIntervalSecMin\":0,\"RandomIntervalSecMax\":0}",
+                    "Config2ID": "NpcTalkGroupConfig_211001100"
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "NpcTalkConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a245c4ce-fcf4-49e0-afb8-6b10aa0ebd57",
+                    "computeOrder": 10,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1893.0,
+                        "y": 69.0,
+                        "width": 218.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001171,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "96BA2D72AD7FC2D3C83839A89B042E15",
+                    "ConfigJson": "{\"ID\":211001171,\"TalkGroupID\":211001100,\"NpcIndex\":0,\"IntervalSecs\":[2,2],\"WaitSecs\":5,\"TalkDescKey\":0,\"FixIntervalSecs\":2,\"RandomIntervalSecMin\":2,\"RandomIntervalSecMax\":2}",
+                    "Config2ID": "NpcTalkConfig_211001171"
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "RefConfigBaseNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "b81ccfd2-78c1-4c61-a891-3cb882945185",
+                    "computeOrder": 11,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 231.0,
+                        "y": 369.0,
+                        "width": 345.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "TableManagerName": "TableDR.MapEventActorFormationConfigManager",
+                    "ID": 1940003,
+                    "ManualID": 0
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "MapEventConditionGroupConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "1b5982ff-521c-46af-a642-f0c0bdf7e847",
+                    "computeOrder": 12,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 270.00006103515627,
+                        "y": 217.5000457763672,
+                        "width": 208.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000779,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "2ABDD98E4919746DA90B868DC1F8E125",
+                    "ConfigJson": "{\"ID\":211000779,\"ConditionID\":[211000807]}",
+                    "Config2ID": "MapEventConditionGroupConfig_211000779"
+                }
+            },
+            {
+                "rid": 1013,
+                "type": {
+                    "class": "MapEventConditionConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "8e37702c-518b-4a94-8787-e5c545cfea5b",
+                    "computeOrder": 13,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 504.1001281738281,
+                        "y": 218.00001525878907,
+                        "width": 239.0,
+                        "height": 99.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211000807,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "4214372FC9EE4685BAED2AD276C3B296",
+                    "ConfigJson": "{\"ID\":211000807,\"GameEntityType\":2,\"SubGameEntityType\":0,\"FormulaID\":[211001450]}",
+                    "Config2ID": "MapEventConditionConfig_211000807",
+                    "NpcTemplateID": 0
+                }
+            },
+            {
+                "rid": 1014,
+                "type": {
+                    "class": "MapEventFormulaConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "e5c06e8a-90c2-4624-b182-0b88c8c73637",
+                    "computeOrder": 14,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 790.0,
+                        "y": 255.5,
+                        "width": 208.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 211001450,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "B15AC72C592157A0CD2D2B0DF46902DC",
+                    "ConfigJson": "{\"ID\":211001450,\"ConditionType\":31,\"FormulaA\":[{\"Rule\":4,\"Value\":3,\"ValueEnd\":5}],\"FormulaB\":[],\"FormulaC\":[],\"FormulaD\":[],\"FormulaE\":[],\"LogicOp\":0}",
+                    "Config2ID": "MapEventFormulaConfig_211001450"
+                }
+            }
+        ]
+    }
+}

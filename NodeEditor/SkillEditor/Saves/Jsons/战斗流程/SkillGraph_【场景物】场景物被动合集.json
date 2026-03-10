@@ -1,0 +1,165 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "495c1716-9610-4305-80d0-3d394c93c895",
+            "inputNodeGUID": "30c8f103-2b32-4698-a726-56d99c12add2",
+            "outputNodeGUID": "10f7d08b-011d-4147-9452-1476b67831fe",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "830b8bcb-301a-41d8-8f74-cfa047a85ca4",
+            "title": "石头",
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 253.56263732910157,
+                "y": 40.520877838134769,
+                "width": 741.0,
+                "height": 443.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "30c8f103-2b32-4698-a726-56d99c12add2",
+                "10f7d08b-011d-4147-9452-1476b67831fe"
+            ]
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/战斗流程/SkillGraph_【场景物】场景物被动合集.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "10f7d08b-011d-4147-9452-1476b67831fe",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 278.56256103515627,
+                        "y": 155.5208740234375,
+                        "width": 263.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 186012405,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":186012405,\"SkillEffectType\":1,\"Params\":[{\"Value\":186012406,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_186012405",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_CREATE_EFFECT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "30c8f103-2b32-4698-a726-56d99c12add2",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 626.5625610351563,
+                        "y": 99.5208740234375,
+                        "width": 343.0,
+                        "height": 359.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 186012406,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":186012406,\"SkillEffectType\":11,\"Params\":[{\"Value\":70006,\"ParamType\":0,\"Factor\":0},{\"Value\":90,\"ParamType\":0,\"Factor\":0},{\"Value\":59,\"ParamType\":1,\"Factor\":0},{\"Value\":60,\"ParamType\":1,\"Factor\":0},{\"Value\":60,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":100,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":100,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_186012406",
+                    "SkillEffectType": 11
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "963b583a-4b3a-4576-87a2-45798da24878",
+            "inputNodeGUID": "1fc90e78-5786-4165-97fa-8570cfcc0cdc",
+            "outputNodeGUID": "91015157-44e2-4bac-87d8-c1005486188b",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 14.0,
+                "width": 336.0,
+                "height": 350.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 2,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/关卡模板/SkillGraph_282460_【条件模板】单位间距离判断.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSCT_VALUE_COMPARE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "91015157-44e2-4bac-87d8-c1005486188b",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 4.002272605895996,
+                        "y": -0.0000152587890625,
+                        "width": 265.0,
+                        "height": 142.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 282460,
+                    "Desc": "",
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "单位1",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "单位2",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "运算符",
+                            "RefTypeName": "TConditionOperator",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": true,
+                            "RefTableFullName": "TableDR.TConditionOperator",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "距离",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "单位1",
+                        "单位2",
+                        "运算符",
+                        "距离"
+                    ],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":282460,\"SkillConditionType\":7,\"Params\":[{\"Value\":28022924,\"ParamType\":2,\"Factor\":0},{\"Value\":3,\"ParamType\":4,\"Factor\":0},{\"Value\":4,\"ParamType\":4,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_282460",
+                    "SkillConditionType": 7
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_GET_ENTITY_DISTANCE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "1fc90e78-5786-4165-97fa-8570cfcc0cdc",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 286.28021240234377,
+                        "y": 0.000001430511474609375,
+                        "width": 341.0,
+                        "height": 166.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28022924,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28022924,\"SkillEffectType\":84,\"Params\":[{\"Value\":1,\"ParamType\":4,\"Factor\":0},{\"Value\":2,\"ParamType\":4,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28022924",
+                    "SkillEffectType": 84
+                }
+            }
+        ]
+    }
+}

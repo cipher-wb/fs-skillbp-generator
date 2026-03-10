@@ -1,0 +1,192 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "14dbfe14-135a-48d1-86b7-eb209e5a1c2e",
+            "inputNodeGUID": "e5987679-7c13-4d3c-9b8a-37f2c7c66052",
+            "outputNodeGUID": "1478c267-7f25-40d2-a576-316b60ea3dcd",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        },
+        {
+            "GUID": "6c26af2b-d4e2-4911-ac16-81ece8dd7aee",
+            "inputNodeGUID": "1478c267-7f25-40d2-a576-316b60ea3dcd",
+            "outputNodeGUID": "d2b838a1-48a8-4975-b8b4-e3ce8a71524c",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "SkillEffectPassiveExecuteInfo.SkillEffectConfigID",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 2.0,
+                "y": 20.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 4,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/宗门技能/宗门心法/SkillGraph_3049212【火宗门】炎凰心经_魔元婴.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SkillConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "d2b838a1-48a8-4975-b8b4-e3ce8a71524c",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 601.0,
+                        "y": 371.0,
+                        "width": 342.0,
+                        "height": 239.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 3049212,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0C2C5D4A7DC9280429315C2EEAD44FDF",
+                    "ConfigJson": "{\"SkillXinfaType\":0,\"ID\":3049212,\"SkillNameKey\":0,\"SkillDescKey\":0,\"Icon\":\"\",\"ElementType\":0,\"SkillSchoolResType\":0,\"FeatureLabel\":0,\"BDLabels\":[],\"SkillAITags\":[],\"DamageType\":0,\"SkillMainType\":0,\"SkillSubType\":0,\"MPCost\":0,\"HunLiValue\":0,\"SectXinfaEnergyValue\":0,\"SkillCastFrame\":0,\"SkillBufferStartFrame\":0,\"SkillBufferFrame\":0,\"SkillBaseDuration\":0,\"SkillCastIsNotInterruptable\":false,\"IsSkillBufferFrameCanMove\":false,\"CdType\":0,\"CdTime\":0,\"ComboCdList\":[],\"CDMaxStoreCount\":0,\"SkillFixCdTime\":0,\"SkillRange\":0,\"SkillMinRange\":0,\"AISkillRange\":0,\"ExtraAlertRange\":0,\"IsCloseChaseInAlertRange\":false,\"NeedTargetInRange\":false,\"IsSkillCastNoTargetInIdle\":false,\"Condition\":0,\"AICastCondition\":0,\"SkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"SkillEffectPassiveExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":108021756},\"SkillEffectOnUnEquip\":0,\"ChantCounterValuesList\":[],\"LGDamageValuesList\":[],\"SkillDamageTagsList\":[],\"SkillTagsList\":[],\"SkillTipsConditionSkillTagsList\":[],\"TalentKeyWord\":[],\"UseSkillSpeedDownValue\":0,\"UseSkillSpeedDownTime\":0,\"SkillIndicatorType\":0,\"SkillIndicatorParam\":[],\"SkillIndicatorParamTagConfigIds\":[],\"SkillIndicatorResParam\":[],\"SkillIndicatorResParamTagConfigIds\":[],\"LockEntityAfterUseSkillDuration\":0,\"LockEntityPosTypeAfterUseSkill\":0,\"SkillEffectOnSkillCastInterrupt\":0,\"UseSkillForbidUpdateFaceDir\":false,\"UseType\":0,\"ButtonUpConfig\":0,\"InterruptConfig\":0,\"ReActiveConfig\":0,\"SkillQuality\":0,\"IsPassiveSkillHideCD\":false,\"IsPassiveSkillNotRunByCD\":false,\"SkillProperty\":0,\"SkillRangeTagConfigId\":0,\"SkillMinRangeTagConfigId\":0,\"SmartCastTargetBasePriority\":0,\"SmartCastTargetCondTemplate\":0,\"SmartCastTargetMonsterRankCond\":[],\"SmartCastTargetCampCond\":[],\"SmartCastNoTargetIndicatorPos\":0,\"SmartCastNoTargetCancelUse\":false,\"CastTargetCondTemplate\":0,\"CastTargetMonsterRankCond\":[],\"CastTargetCampCond\":[],\"IsHideContinueUseSkillHeadBar\":false,\"SkillPriority\":0,\"EnhanceSkillBuffConfigID\":0,\"StatisticsDamageAloneForSummon\":false,\"SkillNameEditor\":\"灼焰心经_魔元婴\",\"SkillDescEditor\":\"携带[灼烧]的敌人，每隔X秒在脚下放一个[火海]。\"}",
+                    "Config2ID": "SkillConfig_3049212"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_ADD_BUFF",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "1478c267-7f25-40d2-a576-316b60ea3dcd",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 980.0,
+                        "y": 379.0,
+                        "width": 322.0,
+                        "height": 215.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 108021756,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":108021756,\"SkillEffectType\":4,\"Params\":[{\"Value\":3,\"ParamType\":5,\"Factor\":0},{\"Value\":3,\"ParamType\":5,\"Factor\":0},{\"Value\":1080634,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_108021756",
+                    "SkillEffectType": 4
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "BuffConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "e5987679-7c13-4d3c-9b8a-37f2c7c66052",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1331.0,
+                        "y": 403.0,
+                        "width": 288.0,
+                        "height": 191.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1080634,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "209F32727A301A2C2835D2DDCF0D3251",
+                    "ConfigJson": "{\"ID\":1080634,\"BuffNameKey\":0,\"BuffDescKey\":0,\"EffectID\":0,\"EffectIsOverlay\":false,\"Icon\":\"\",\"IsShowIcon\":false,\"ShowIconVisibleType\":0,\"IsHideUiProgress\":false,\"IconPriority\":0,\"BuffTypeFlags\":0,\"BuffLevel\":0,\"LastTime\":-1,\"LoopTime\":0,\"OverlyingMax\":0,\"IsRefreshTime\":false,\"SameCoexistType\":0,\"DiffCoexistType\":0,\"IsSkillLevelHighReplaceLow\":false,\"BuffGroups\":[],\"RemoveOtherBuffGroups\":[],\"IsDeadExist\":false,\"AddState\":0,\"EffectAttrsOnlySelf\":false,\"Attrs\":[],\"IsTempAttrs\":true,\"SkillTags\":[],\"IsTempSkillTags\":true,\"IsIgnoreStateRules\":false,\"TagIcon\":\"\",\"MarkResourcePath\":\"\",\"MarkResourceShowType\":0,\"MarkResourceShowPos\":0,\"MarkResourceShowAnim\":false,\"MarkResourceShowFullEffect\":false,\"StatisticsDamageAloneForSummon\":false,\"FuryTimerBuff\":false,\"BuffNameEditor\":\"\",\"BuffDescEditor\":\"\"}",
+                    "Config2ID": "BuffConfig_1080634"
+                }
+            }
+        ]
+    }
+}

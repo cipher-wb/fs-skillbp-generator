@@ -1,0 +1,428 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "423e8560-e292-400a-bf25-27444ff6828d",
+            "inputNodeGUID": "5a2f3c19-1d16-4edd-9a4e-2c4202d544d1",
+            "outputNodeGUID": "69d1b58b-8525-4ac9-80c3-4a26158df09f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "583ed351-875b-4008-9f32-f3b6e35e58b9",
+            "inputNodeGUID": "de00cdc7-9d64-4e08-beda-823b64612ebe",
+            "outputNodeGUID": "5a2f3c19-1d16-4edd-9a4e-2c4202d544d1",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        },
+        {
+            "GUID": "96fc1126-5c13-4170-9e08-7fc6dabb231d",
+            "inputNodeGUID": "aeb036b9-e1fc-4587-9343-f7346cd57d84",
+            "outputNodeGUID": "de00cdc7-9d64-4e08-beda-823b64612ebe",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/特殊玩法/淬灵-心火小游戏/AIGraph_146000942_【配置】BOSS心火.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "69d1b58b-8525-4ac9-80c3-4a26158df09f",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -0.0000152587890625,
+                        "y": 86.04447937011719,
+                        "width": 266.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146000942,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146000942,\"SkillEffectType\":1,\"Params\":[{\"Value\":146001004,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146000942",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5a2f3c19-1d16-4edd-9a4e-2c4202d544d1",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 314.7803955078125,
+                        "y": 86.0,
+                        "width": 462.0,
+                        "height": 325.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001004,
+                    "Desc": "AIGraph_146000947_【AI模板】BOSS心火.json",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001004,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":146000947,\"ParamType\":0,\"Factor\":0},{\"Value\":146001367,\"ParamType\":2,\"Factor\":0},{\"Value\":6020,\"ParamType\":0,\"Factor\":0},{\"Value\":6021,\"ParamType\":0,\"Factor\":0},{\"Value\":6022,\"ParamType\":0,\"Factor\":0},{\"Value\":6023,\"ParamType\":0,\"Factor\":0},{\"Value\":6024,\"ParamType\":0,\"Factor\":0},{\"Value\":1350,\"ParamType\":0,\"Factor\":0},{\"Value\":90,\"ParamType\":0,\"Factor\":0},{\"Value\":70,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":10,\"ParamType\":0,\"Factor\":0},{\"Value\":1000,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001004",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "依次召唤五行心火间隔时间[帧]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "金五行心火单位表ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "木五行心火单位表ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "水五行心火单位表ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "火五行心火单位表ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "土五行心火单位表ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "BOSS开始行动时间[帧]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能交替使用间隔时间[帧]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "萎缩状态-触发血量百分比",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "萎缩状态-爆出小火苗间隔时间[帧]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "萎缩状态-每次爆出小火苗数量",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "警戒距离[厘米]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/特殊玩法/淬灵-心火小游戏/AIGraph_146000947_【AI模板】BOSS心火.json"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "de00cdc7-9d64-4e08-beda-823b64612ebe",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 804.8640747070313,
+                        "y": 157.9882354736328,
+                        "width": 264.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001367,
+                    "Desc": "240帧 = 8秒",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001367,\"SkillEffectType\":31,\"Params\":[{\"Value\":240,\"ParamType\":0,\"Factor\":0},{\"Value\":4,\"ParamType\":0,\"Factor\":0},{\"Value\":146001368,\"ParamType\":2,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001367",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_GET_SKILL_TAG_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "aeb036b9-e1fc-4587-9343-f7346cd57d84",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1096.973876953125,
+                        "y": 205.50001525878907,
+                        "width": 385.0,
+                        "height": 191.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001368,
+                    "Desc": "机缘效果，减少召唤的间隔时间",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001368,\"SkillEffectType\":48,\"Params\":[{\"Value\":21,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":213,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001368",
+                    "SkillEffectType": 48
+                }
+            }
+        ]
+    }
+}

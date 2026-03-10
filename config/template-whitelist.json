@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "selection_order": [
+    "system-example",
+    "skill-template",
+    "general-skill",
+    "sect-skill"
+  ],
+  "templates": [
+    {
+      "key": "system-straight-projectile",
+      "category": "projectile",
+      "source_type": "system-example",
+      "recommended": true,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/系统功能/SkillGraph_技能范例-直线飞行技能.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/系统功能/SkillGraph_技能范例-直线飞行技能.json",
+      "use_for": [
+        "直线飞行技能",
+        "单发子弹技能",
+        "命中触发效果"
+      ],
+      "allowed_replacements": [
+        "skill_name",
+        "skill_desc",
+        "cast_fx_model",
+        "projectile_model",
+        "hit_fx_model",
+        "bullet_speed",
+        "bullet_lifetime",
+        "damage_tags",
+        "buff_id",
+        "cast_timing",
+        "cd_time",
+        "indicator"
+      ],
+      "protected_nodes": [
+        "main_skill_config",
+        "main_skill_effect_chain",
+        "template_reference_ports"
+      ],
+      "notes": "首选直线飞行骨架。优先于复杂宗门技能。"
+    },
+    {
+      "key": "system-ground-aoe",
+      "category": "aoe",
+      "source_type": "system-example",
+      "recommended": true,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/系统功能/SkillGraph_技能范例-范围AOE.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/系统功能/SkillGraph_技能范例-范围AOE.json",
+      "use_for": [
+        "地面范围技能",
+        "延迟爆炸技能",
+        "指定位置技能"
+      ],
+      "allowed_replacements": [
+        "skill_name",
+        "skill_desc",
+        "cast_fx_model",
+        "ground_fx_model",
+        "damage_tags",
+        "buff_id",
+        "delay_frames",
+        "radius",
+        "cast_timing",
+        "cd_time",
+        "indicator"
+      ],
+      "protected_nodes": [
+        "main_skill_config",
+        "aoe_execute_order"
+      ],
+      "notes": "首选地面 AOE 骨架。"
+    },
+    {
+      "key": "template-cast-fx",
+      "category": "cast-fx",
+      "source_type": "skill-template",
+      "recommended": true,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/技能/SkillGraph_1860372【模板】技能施法特效.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/技能模板/技能/SkillGraph_1860372【模板】技能施法特效.json",
+      "use_for": [
+        "施法前摇特效",
+        "起手表现"
+      ],
+      "allowed_replacements": [
+        "cast_fx_model",
+        "cast_fx_angle",
+        "cast_fx_offset_radius",
+        "cast_fx_offset_height",
+        "cast_fx_duration",
+        "cast_fx_scale"
+      ],
+      "protected_nodes": [
+        "template_binding"
+      ],
+      "notes": "标准施法表现模板。"
+    },
+    {
+      "key": "template-cast-state",
+      "category": "cast-state",
+      "source_type": "skill-template",
+      "recommended": false,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/技能/SkillGraph_1860131【模板】施法状态.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/技能模板/技能/SkillGraph_1860131【模板】施法状态.json",
+      "use_for": [
+        "施法阶段状态占位",
+        "系统直线飞行骨架的施法状态模板"
+      ],
+      "allowed_replacements": [
+        "cast_timing"
+      ],
+      "protected_nodes": [
+        "cast_state_runtime_chain"
+      ],
+      "notes": "系统直线飞行骨架的遗留依赖，保留用于兼容。"
+    },
+    {
+      "key": "template-projectile-shape-circle",
+      "category": "projectile-shape",
+      "source_type": "skill-template",
+      "recommended": true,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_1860404【模板】圆形子弹效果配置.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_1860404【模板】圆形子弹效果配置.json",
+      "use_for": [
+        "圆形攻击盒子弹",
+        "球状命中体"
+      ],
+      "allowed_replacements": [
+        "projectile_model",
+        "projectile_scale",
+        "projectile_speed",
+        "projectile_lifetime",
+        "on_spawn_effect",
+        "on_death_effect"
+      ],
+      "protected_nodes": [
+        "collision_logic",
+        "damage_logic"
+      ],
+      "notes": "推荐优先于旧的飞行攻击盒子弹模板。"
+    },
+    {
+      "key": "template-projectile-legacy-box",
+      "category": "projectile-shape",
+      "source_type": "skill-template",
+      "recommended": false,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_1860138【不建议使用】【模板】飞行攻击盒子弹配置.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_1860138【不建议使用】【模板】飞行攻击盒子弹配置.json",
+      "use_for": [
+        "系统直线飞行骨架的遗留飞行体承载模板"
+      ],
+      "allowed_replacements": [
+        "projectile_model",
+        "projectile_speed",
+        "projectile_lifetime"
+      ],
+      "protected_nodes": [
+        "legacy_bullet_runtime_chain"
+      ],
+      "notes": "仅为兼容系统直线飞行骨架保留，不作为新图首选。"
+    },
+    {
+      "key": "template-projectile-hit",
+      "category": "hit-logic",
+      "source_type": "skill-template",
+      "recommended": true,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_175_0001【模板】子弹通用命中效果.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/技能模板/子弹/SkillGraph_175_0001【模板】子弹通用命中效果.json",
+      "use_for": [
+        "子弹命中效果",
+        "命中附加 buff"
+      ],
+      "allowed_replacements": [
+        "damage_tags",
+        "buff_id",
+        "hit_fx_model"
+      ],
+      "protected_nodes": [
+        "hit_event_chain"
+      ],
+      "notes": "命中类效果优先从这里扩展。"
+    },
+    {
+      "key": "general-skill-fire-trail",
+      "category": "movement-trail",
+      "source_type": "general-skill",
+      "recommended": false,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/通用技能/SkillGraph_300203【通用】踏火决.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/通用技能/SkillGraph_300203【通用】踏火决.json",
+      "use_for": [
+        "移动留区域",
+        "持续地面伤害"
+      ],
+      "allowed_replacements": [
+        "skill_name",
+        "skill_desc",
+        "damage_tags",
+        "area_duration",
+        "ground_fx_model"
+      ],
+      "protected_nodes": [
+        "movement_trigger_chain"
+      ],
+      "notes": "适合作为持续路径伤害参考，不建议大改主链。"
+    },
+    {
+      "key": "general-skill-thunder",
+      "category": "projectile",
+      "source_type": "general-skill",
+      "recommended": false,
+      "asset_path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/通用技能/SkillGraph_300901【通用】天雷诀.json",
+      "workspace_path": "NodeEditor/SkillEditor/Saves/Jsons/通用技能/SkillGraph_300901【通用】天雷诀.json",
+      "use_for": [
+        "元素直线技能",
+        "带元素表现的通用技能"
+      ],
+      "allowed_replacements": [
+        "skill_name",
+        "skill_desc",
+        "projectile_model",
+        "hit_fx_model",
+        "damage_tags"
+      ],
+      "protected_nodes": [
+        "main_skill_effect_chain"
+      ],
+      "notes": "作为通用技能参考，不优先于系统范例。"
+    }
+  ]
+}

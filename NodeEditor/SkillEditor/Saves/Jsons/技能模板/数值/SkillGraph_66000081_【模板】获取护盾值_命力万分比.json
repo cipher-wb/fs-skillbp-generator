@@ -1,0 +1,228 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "6297d185-6dc1-4f3c-bcee-fc37c15a0323",
+            "inputNodeGUID": "fa8a89bc-1803-4648-a999-50182a2a997c",
+            "outputNodeGUID": "787c080b-b211-4ca8-8d45-3d9fccdd5532",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "84c43a20-213f-4cc3-bdd9-f7b0dec4c181",
+            "inputNodeGUID": "db033eba-7960-43d9-b1c0-f0b449a83fa7",
+            "outputNodeGUID": "787c080b-b211-4ca8-8d45-3d9fccdd5532",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 269.0,
+                "height": 352.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/数值/SkillGraph_66000081_【模板】获取护盾值_命力万分比.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "787c080b-b211-4ca8-8d45-3d9fccdd5532",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -87.19354248046875,
+                        "y": -142.42825317382813,
+                        "width": 396.0000305175781,
+                        "height": 447.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000081,
+                    "Desc": "获取护盾值_按照命力万分比获取\n护盾值=（气血基础值+气血基础附加值）*万分比 ",
+                    "IsExport": true,
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "气血获取单位实例ID",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "气血万分比",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "气血获取单位实例ID",
+                        "气血万分比"
+                    ],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000081,\"SkillEffectType\":31,\"Params\":[{\"Value\":66000134,\"ParamType\":2,\"Factor\":0},{\"Value\":3,\"ParamType\":0,\"Factor\":0},{\"Value\":66000135,\"ParamType\":2,\"Factor\":0},{\"Value\":5,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":4,\"Factor\":0},{\"Value\":6,\"ParamType\":0,\"Factor\":0},{\"Value\":10000,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000081",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_GET_ENTITY_ATTR_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "fa8a89bc-1803-4648-a999-50182a2a997c",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 343.0,
+                        "y": -143.0,
+                        "width": 313.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000134,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000134,\"SkillEffectType\":32,\"Params\":[{\"Value\":1,\"ParamType\":4,\"Factor\":0},{\"Value\":132,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000134",
+                    "SkillEffectType": 32
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_GET_ENTITY_ATTR_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "db033eba-7960-43d9-b1c0-f0b449a83fa7",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 343.0000305175781,
+                        "y": -23.99998664855957,
+                        "width": 351.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000135,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000135,\"SkillEffectType\":32,\"Params\":[{\"Value\":1,\"ParamType\":4,\"Factor\":0},{\"Value\":368,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000135",
+                    "SkillEffectType": 32
+                }
+            }
+        ]
+    }
+}

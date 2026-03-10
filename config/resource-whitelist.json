@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "fallback_order": {
+    "cast_fx": [
+      "ModelConfig_19000720",
+      "ModelConfig_19000706"
+    ],
+    "projectile_model": [
+      "ModelConfig_19000726",
+      "ModelConfig_19000741"
+    ],
+    "hit_fx": [
+      "ModelConfig_19000725",
+      "ModelConfig_19000706"
+    ],
+    "ground_fx": [
+      "ModelConfig_19000701",
+      "ModelConfig_19000728"
+    ]
+  },
+  "resources": [
+    {
+      "config2id": "ModelConfig_19000720",
+      "id": 19000720,
+      "kind": "cast_fx",
+      "purpose": "formal_cast_fx",
+      "model_path": "Effect/304001_atk_cast1",
+      "is_fallback": false,
+      "priority": 10
+    },
+    {
+      "config2id": "ModelConfig_19000725",
+      "id": 19000725,
+      "kind": "hit_fx",
+      "purpose": "formal_hit_fx",
+      "model_path": "Effect/304001_atk_hit1",
+      "is_fallback": false,
+      "priority": 10
+    },
+    {
+      "config2id": "ModelConfig_19000726",
+      "id": 19000726,
+      "kind": "projectile_model",
+      "purpose": "formal_projectile_fx",
+      "model_path": "Effect/304001_atk_fly2",
+      "is_fallback": false,
+      "priority": 10
+    },
+    {
+      "config2id": "ModelConfig_19000727",
+      "id": 19000727,
+      "kind": "projectile_model",
+      "purpose": "alternate_projectile_fx",
+      "model_path": "Effect/304201_skill2_fly_linshi",
+      "is_fallback": false,
+      "priority": 20
+    },
+    {
+      "config2id": "ModelConfig_19000701",
+      "id": 19000701,
+      "kind": "ground_fx",
+      "purpose": "formal_ground_aoe",
+      "model_path": "Effect/304202_skill2_firePillar",
+      "is_fallback": false,
+      "priority": 10
+    },
+    {
+      "config2id": "ModelConfig_19000706",
+      "id": 19000706,
+      "kind": "hit_fx",
+      "purpose": "safe_debug_placeholder",
+      "model_path": "Effect/SK0023_e_02",
+      "is_fallback": true,
+      "priority": 100
+    },
+    {
+      "config2id": "ModelConfig_19000728",
+      "id": 19000728,
+      "kind": "ground_fx",
+      "purpose": "safe_ground_placeholder",
+      "model_path": "Effect/304102_skill1_circle_mu",
+      "is_fallback": true,
+      "priority": 100
+    },
+    {
+      "config2id": "ModelConfig_19000741",
+      "id": 19000741,
+      "kind": "projectile_model",
+      "purpose": "safe_projectile_placeholder",
+      "model_path": "Effect/30002_skill3_fly",
+      "is_fallback": true,
+      "priority": 100
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "5ada6c7d-1dae-4251-8d0e-cfdd530880db",
+            "inputNodeGUID": "00990440-6b6d-4078-979f-89ccaeb9752b",
+            "outputNodeGUID": "542a9280-d964-4a71-ac20-a6881fe35248",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "FormulaID",
+            "isVisible": true
+        },
+        {
+            "GUID": "3f3bc452-07e3-4634-8ab2-f94353da72c9",
+            "inputNodeGUID": "44a68890-62a6-434c-afe9-5f41a56afabb",
+            "outputNodeGUID": "542a9280-d964-4a71-ac20-a6881fe35248",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "FormulaID",
+            "isVisible": true
+        },
+        {
+            "GUID": "b6ee7758-4378-4fcf-9a7c-a36bd3850949",
+            "inputNodeGUID": "542a9280-d964-4a71-ac20-a6881fe35248",
+            "outputNodeGUID": "a87817b7-53da-44ea-a570-14a7c2483fa4",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "ConditionID",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/NpcEventEditor/Saves/Jsons/条件组/NpcEventGraph_72000076_NPC境界条件.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "MapEventConditionGroupConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a87817b7-53da-44ea-a570-14a7c2483fa4",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 72000076,
+                    "Desc": "境界等于淬灵期",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "2ABDD98E4919746DA90B868DC1F8E125",
+                    "ConfigJson": "{\"ID\":72000076,\"ConditionID\":[72000102],\"Describe\":\"境界等于淬灵期\"}",
+                    "Config2ID": "MapEventConditionGroupConfig_72000076"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "MapEventConditionConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "542a9280-d964-4a71-ac20-a6881fe35248",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 335.0,
+                        "y": -11.0,
+                        "width": 216.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 72000102,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "4214372FC9EE4685BAED2AD276C3B296",
+                    "ConfigJson": "{\"ID\":72000102,\"GameEntityType\":5,\"SubGameEntityType\":0,\"FormulaID\":[72000154,72000153]}",
+                    "Config2ID": "MapEventConditionConfig_72000102",
+                    "NpcTemplateID": 0
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "MapEventFormulaConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "00990440-6b6d-4078-979f-89ccaeb9752b",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 671.0,
+                        "y": 55.0,
+                        "width": 137.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 72000153,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "B15AC72C592157A0CD2D2B0DF46902DC",
+                    "ConfigJson": "{\"ID\":72000153,\"ConditionType\":1,\"FormulaA\":[{\"Rule\":4,\"Value\":6,\"ValueEnd\":8}],\"FormulaB\":[],\"FormulaC\":[],\"FormulaD\":[],\"LogicOp\":0}",
+                    "Config2ID": "MapEventFormulaConfig_72000153"
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "MapEventFormulaConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "44a68890-62a6-434c-afe9-5f41a56afabb",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 651.0,
+                        "y": -93.0,
+                        "width": 157.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 72000154,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "B15AC72C592157A0CD2D2B0DF46902DC",
+                    "ConfigJson": "{\"ID\":72000154,\"ConditionType\":19,\"FormulaA\":[],\"FormulaB\":[0],\"FormulaC\":[],\"FormulaD\":[],\"LogicOp\":0}",
+                    "Config2ID": "MapEventFormulaConfig_72000154"
+                }
+            }
+        ]
+    }
+}

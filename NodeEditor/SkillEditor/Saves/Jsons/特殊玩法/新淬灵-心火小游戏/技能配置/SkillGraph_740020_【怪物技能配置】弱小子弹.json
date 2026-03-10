@@ -1,0 +1,464 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "6827f5b6-be2a-4b5a-929c-7be3b57d8a11",
+            "inputNodeGUID": "7a9c6579-7955-435f-9e19-5d3c92a70df0",
+            "outputNodeGUID": "87dd9e36-8f85-4033-bb1d-fe557cb34d0c",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "SkillEffectExecuteInfo.SkillEffectConfigID",
+            "isVisible": true
+        },
+        {
+            "GUID": "0d840990-28ad-4d32-a390-fb41f8a4cdc1",
+            "inputNodeGUID": "742f39eb-03d9-4c69-a21b-4490922592d8",
+            "outputNodeGUID": "7a9c6579-7955-435f-9e19-5d3c92a70df0",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        },
+        {
+            "GUID": "fea84a4c-88c1-45f5-a13e-3fc860467c61",
+            "inputNodeGUID": "2fd37603-3c3e-4912-b37f-e714415d4baf",
+            "outputNodeGUID": "7a9c6579-7955-435f-9e19-5d3c92a70df0",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "4",
+            "isVisible": true
+        },
+        {
+            "GUID": "6601a45a-c853-4197-8c4f-eba4237a7361",
+            "inputNodeGUID": "a0820938-c04a-4b33-ab5e-2d958f6a4585",
+            "outputNodeGUID": "7a9c6579-7955-435f-9e19-5d3c92a70df0",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "5",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "",
+            "title": "蓝色心火-无属性子弹特效模型",
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 294.77752685546877,
+                "y": -400.5426330566406,
+                "width": 663.0,
+                "height": 291.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "742f39eb-03d9-4c69-a21b-4490922592d8",
+                "2fd37603-3c3e-4912-b37f-e714415d4baf",
+                "a0820938-c04a-4b33-ab5e-2d958f6a4585"
+            ],
+            "innerStickyNoteGUIDs": []
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 36.0,
+                "y": 70.0,
+                "width": 251.0,
+                "height": 239.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 1,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/特殊玩法/新淬灵-心火小游戏/技能配置/SkillGraph_740020_【怪物技能配置】弱小子弹.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SkillConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "87dd9e36-8f85-4033-bb1d-fe557cb34d0c",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 72.3267822265625,
+                        "y": 69.69672393798828,
+                        "width": 332.0,
+                        "height": 239.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 740020,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0C2C5D4A7DC9280429315C2EEAD44FDF",
+                    "ConfigJson": "{\"SkillXinfaType\":0,\"ID\":740020,\"SkillNameKey\":0,\"SkillDescKey\":0,\"Icon\":\"\",\"ElementType\":0,\"SkillSchoolResType\":0,\"FeatureLabel\":0,\"BDLabels\":[],\"SkillAITags\":[],\"DamageType\":0,\"SkillMainType\":0,\"SkillSubType\":0,\"MPCost\":0,\"HunLiValue\":0,\"SectXinfaEnergyValue\":0,\"SkillCastFrame\":0,\"SkillBufferStartFrame\":0,\"SkillBufferFrame\":0,\"SkillBaseDuration\":0,\"SkillCastIsNotInterruptable\":false,\"IsSkillBufferFrameCanMove\":false,\"CdType\":0,\"CdTime\":60,\"ComboCdList\":[],\"CDMaxStoreCount\":0,\"SkillFixCdTime\":0,\"SkillRange\":2000,\"SkillMinRange\":0,\"AISkillRange\":2000,\"ExtraAlertRange\":0,\"IsCloseChaseInAlertRange\":false,\"NeedTargetInRange\":false,\"IsSkillCastNoTargetInIdle\":false,\"Condition\":0,\"AICastCondition\":0,\"SkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":74000503},\"SkillEffectPassiveExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"SkillEffectOnUnEquip\":0,\"ChantCounterValuesList\":[],\"LGDamageValuesList\":[],\"SkillDamageTagsList\":[],\"SkillTagsList\":[],\"SkillTipsConditionSkillTagsList\":[],\"TalentKeyWord\":[],\"UseSkillSpeedDownValue\":0,\"UseSkillSpeedDownTime\":0,\"SkillIndicatorType\":0,\"SkillIndicatorParam\":[0],\"SkillIndicatorParamTagConfigIds\":[],\"SkillIndicatorResParam\":[],\"SkillIndicatorResParamTagConfigIds\":[],\"LockEntityAfterUseSkillDuration\":0,\"LockEntityPosTypeAfterUseSkill\":0,\"SkillEffectOnSkillCastInterrupt\":0,\"UseSkillForbidUpdateFaceDir\":false,\"UseType\":0,\"ButtonUpConfig\":0,\"InterruptConfig\":0,\"ReActiveConfig\":0,\"SkillQuality\":0,\"IsPassiveSkillHideCD\":false,\"IsPassiveSkillNotRunByCD\":false,\"SkillProperty\":0,\"SkillRangeTagConfigId\":0,\"SkillMinRangeTagConfigId\":0,\"SmartCastTargetBasePriority\":0,\"SmartCastTargetCondTemplate\":0,\"SmartCastTargetMonsterRankCond\":[],\"SmartCastTargetCampCond\":[],\"SmartCastNoTargetIndicatorPos\":0,\"SmartCastNoTargetCancelUse\":false,\"CastTargetCondTemplate\":0,\"CastTargetMonsterRankCond\":[],\"CastTargetCampCond\":[],\"IsHideContinueUseSkillHeadBar\":false,\"SkillPriority\":0,\"EnhanceSkillBuffConfigID\":0,\"StatisticsDamageAloneForSummon\":false,\"SkillNameEditor\":\"弱小子弹\",\"SkillDescEditor\":\"心火怪物的子弹攻击。\"}",
+                    "Config2ID": "SkillConfig_740020"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "7a9c6579-7955-435f-9e19-5d3c92a70df0",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 454.5,
+                        "y": -10.0,
+                        "width": 447.0,
+                        "height": 396.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 74000503,
+                    "Desc": "SkillGraph_740017_【怪物技能模板】直射子弹.json\n-----------------------模板说明-----------------------\n金心火子弹技能",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":74000503,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":74000524,\"ParamType\":0,\"Factor\":0},{\"Value\":7400020,\"ParamType\":0,\"Factor\":0},{\"Value\":7400021,\"ParamType\":0,\"Factor\":0},{\"Value\":7400023,\"ParamType\":0,\"Factor\":0},{\"Value\":1000,\"ParamType\":0,\"Factor\":0},{\"Value\":60,\"ParamType\":0,\"Factor\":0},{\"Value\":10000,\"ParamType\":0,\"Factor\":0},{\"Value\":100,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":10,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_74000503",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹模型ID",
+                                "RefTypeName": "ModelConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.ModelConfig",
+                                "RefTableManagerName": "TableDR.ModelConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹命中特效模型ID",
+                                "RefTypeName": "ModelConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.ModelConfig",
+                                "RefTableManagerName": "TableDR.ModelConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹消散特效模型ID",
+                                "RefTypeName": "ModelConfig",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": true,
+                                "isEnum": false,
+                                "RefTableFullName": "TableDR.ModelConfig",
+                                "RefTableManagerName": "TableDR.ModelConfigManager",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹速度[厘米/秒]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹飞行时长[帧]",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "伤害系数万分比",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "子弹模型缩放",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "发射次数",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "间隔时间（帧）",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":0,\"ParamType\":0,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/特殊玩法/新淬灵-心火小游戏/模板/SkillGraph_740017_【怪物技能模板】直射子弹.json"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ModelConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "742f39eb-03d9-4c69-a21b-4490922592d8",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 951.3267822265625,
+                        "y": -166.80328369140626,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 7400020,
+                    "Desc": "子弹特效",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "C94DC21B86D61560EE7EB578551480C6",
+                    "ConfigJson": "{\"SheetRowIndex\":0,\"ID\":7400020,\"ModelTopUIHeight\":0,\"InteractionRange\":0,\"ModelInitAngle\":0,\"ModelPath\":\"Effect/E_Xinhuojineng_zidan\",\"IsLoadModelSync\":false,\"DeathEffectId\":0,\"DeathTime\":0,\"ModelAmplify\":0,\"ReadyScale\":0,\"BodyType\":2,\"BodyLevelType\":0,\"BodyForceMoveFactor\":100,\"FixtureConfigId\":[],\"InEyeModelId\":0,\"ModelBornAudio\":0,\"ModelLoopAudio\":0,\"ModelDeathAudio\":0,\"AttachPos\":0,\"Flags\":0,\"HitEffectAmplify\":0,\"BattleStateBaseSpeed\":0,\"NormalStateBaseSpeed\":0,\"LockCircleRadius\":0,\"IsFollowScale\":false,\"IsFollowAnim\":false,\"MapAnimType\":0,\"MapAnimSubType\":0,\"SelectLevel\":0,\"IsNotBias\":0,\"IsDeadDelete\":false,\"ViewEventTargetType\":0,\"DisappearType\":0,\"BaseScale\":0,\"MapStartSoundID\":0,\"MapDestroySoundID\":0,\"MapTriggerSoundID\":0,\"TransformType\":2,\"MonsterSect\":0}",
+                    "Config2ID": "ModelConfig_7400020"
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ModelConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "2fd37603-3c3e-4912-b37f-e714415d4baf",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 978.5217895507813,
+                        "y": 80.39130401611328,
+                        "width": 198.0,
+                        "height": 204.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 7400021,
+                    "Desc": "子弹命中特效",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "C94DC21B86D61560EE7EB578551480C6",
+                    "ConfigJson": "{\"SheetRowIndex\":0,\"ID\":7400021,\"ModelTopUIHeight\":0,\"InteractionRange\":0,\"ModelInitAngle\":0,\"ModelPath\":\"Effect/E_Hit_common\",\"IsLoadModelSync\":false,\"DeathEffectId\":0,\"DeathTime\":0,\"ModelAmplify\":0,\"ReadyScale\":0,\"BodyType\":0,\"BodyLevelType\":0,\"BodyForceMoveFactor\":100,\"FixtureConfigId\":[],\"InEyeModelId\":0,\"ModelBornAudio\":0,\"ModelLoopAudio\":0,\"ModelDeathAudio\":0,\"AttachPos\":0,\"Flags\":0,\"HitEffectAmplify\":0,\"BattleStateBaseSpeed\":0,\"NormalStateBaseSpeed\":0,\"LockCircleRadius\":0,\"IsFollowScale\":false,\"IsFollowAnim\":false,\"MapAnimType\":0,\"MapAnimSubType\":0,\"SelectLevel\":0,\"IsNotBias\":0,\"IsDeadDelete\":false,\"ViewEventTargetType\":0,\"DisappearType\":0,\"BaseScale\":0,\"MapStartSoundID\":0,\"MapDestroySoundID\":0,\"MapTriggerSoundID\":0,\"TransformType\":2,\"MonsterSect\":0}",
+                    "Config2ID": "ModelConfig_7400021"
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ModelConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a0820938-c04a-4b33-ab5e-2d958f6a4585",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 951.3267822265625,
+                        "y": 341.19671630859377,
+                        "width": 0.0,
+                        "height": 0.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 7400023,
+                    "Desc": "子弹消散特效（暂时无用）",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "C94DC21B86D61560EE7EB578551480C6",
+                    "ConfigJson": "{\"SheetRowIndex\":0,\"ID\":7400023,\"ModelTopUIHeight\":0,\"InteractionRange\":0,\"ModelInitAngle\":0,\"IsLoadModelSync\":false,\"DeathEffectId\":0,\"DeathTime\":0,\"ModelAmplify\":0,\"ReadyScale\":0,\"BodyType\":0,\"BodyLevelType\":0,\"BodyForceMoveFactor\":100,\"FixtureConfigId\":[],\"InEyeModelId\":0,\"ModelBornAudio\":0,\"ModelLoopAudio\":0,\"ModelDeathAudio\":0,\"AttachPos\":0,\"Flags\":0,\"HitEffectAmplify\":0,\"BattleStateBaseSpeed\":0,\"NormalStateBaseSpeed\":0,\"LockCircleRadius\":0,\"IsFollowScale\":false,\"IsFollowAnim\":false,\"MapAnimType\":0,\"MapAnimSubType\":0,\"SelectLevel\":0,\"IsNotBias\":0,\"IsDeadDelete\":false,\"ViewEventTargetType\":0,\"DisappearType\":0,\"BaseScale\":0,\"MapStartSoundID\":0,\"MapDestroySoundID\":0,\"MapTriggerSoundID\":0,\"TransformType\":2,\"MonsterSect\":0}",
+                    "Config2ID": "ModelConfig_7400023"
+                }
+            }
+        ]
+    }
+}

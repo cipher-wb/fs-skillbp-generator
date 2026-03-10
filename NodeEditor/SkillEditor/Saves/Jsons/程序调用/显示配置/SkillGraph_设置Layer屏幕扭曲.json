@@ -1,0 +1,126 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "7b493205-aa98-4512-8588-b100dfa8f5aa",
+            "inputNodeGUID": "f4be8ae3-6717-457a-a30f-e8bff3a6a95b",
+            "outputNodeGUID": "25db3063-e8ed-4005-a409-6280e4717ec5",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/程序调用/显示配置/SkillGraph_设置Layer屏幕扭曲.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_VIEW_OPTION",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "25db3063-e8ed-4005-a409-6280e4717ec5",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 381.0,
+                        "y": 175.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 136000097,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":136000097,\"SkillEffectType\":143,\"Params\":[{\"Value\":1360005,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_136000097",
+                    "SkillEffectType": 143
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BattleCustomParamConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "f4be8ae3-6717-457a-a30f-e8bff3a6a95b",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 734.0,
+                        "y": 175.0,
+                        "width": 241.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1360005,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "33C80FD266AB0AE132BEDA9775FF5A69",
+                    "ConfigJson": "{\"ID\":1360005,\"Desc\":\"设置Layer屏幕扭曲\",\"OptionParams\":[{\"OptionType\":3,\"ParamList\":[{\"ParamName\":\"ScreenTwisty\",\"ParamValue\":\"1\"}]}]}",
+                    "Config2ID": "BattleCustomParamConfig_1360005"
+                }
+            }
+        ]
+    }
+}

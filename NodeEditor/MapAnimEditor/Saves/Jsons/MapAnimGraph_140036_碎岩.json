@@ -1,0 +1,290 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "468337c9-d5c5-44a7-9d92-81a5cf24c0ab",
+            "inputNodeGUID": "6a8dab15-5643-41e4-b915-0a3564f35ee1",
+            "outputNodeGUID": "fccac37d-3853-4cbe-872b-42bfee56fd12",
+            "inputFieldName": "ID",
+            "outputFieldName": "JumpId",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "JumpId",
+            "isVisible": true
+        },
+        {
+            "GUID": "0832e1ca-01be-405b-93d6-03c3d392d12f",
+            "inputNodeGUID": "8a56694b-38c9-43a7-b82a-59902b73bb41",
+            "outputNodeGUID": "fccac37d-3853-4cbe-872b-42bfee56fd12",
+            "inputFieldName": "ID",
+            "outputFieldName": "JumpId",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "JumpId",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/MapAnimEditor/Saves/Jsons/MapAnimGraph_140036_碎岩.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "Default",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "fccac37d-3853-4cbe-872b-42bfee56fd12",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140036,
+                    "Desc": "人型单位-碎岩",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "1571F5A06D22DB70E62E029B9B34D337",
+                    "ConfigJson": "{\"ID\":140036,\"UnitAnimType\":0,\"Type\":4,\"JumpType\":2,\"JumpId\":[140112,140051],\"JumpConditions\":[2,2,0,0],\"StrValues\":[],\"Values\":[3],\"TimeOut\":5000,\"OutValues\":0,\"HoldCond\":0}",
+                    "Config2ID": "MapAnimStateConfig_140036",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "人型单位-碎岩",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "条件跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "Default",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "8a56694b-38c9-43a7-b82a-59902b73bb41",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 318.0,
+                        "y": 102.0,
+                        "width": 224.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140051,
+                    "Desc": "MapSkillSub.break",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "1571F5A06D22DB70E62E029B9B34D337",
+                    "ConfigJson": "{\"ID\":140051,\"UnitAnimType\":0,\"Type\":1,\"JumpType\":0,\"JumpId\":[],\"JumpConditions\":[],\"StrValues\":[\"MapSkillSub.break\"],\"Values\":[1000,150,0,3,0,0,0,0],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[],\"HoldCond\":0}",
+                    "Config2ID": "MapAnimStateConfig_140051",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "MapSkillSub.break",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "Anim",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "6a8dab15-5643-41e4-b915-0a3564f35ee1",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 318.0,
+                        "y": -71.5,
+                        "width": 202.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140112,
+                    "Desc": "MapSkillSub.up_break",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "1571F5A06D22DB70E62E029B9B34D337",
+                    "ConfigJson": "{\"ID\":140112,\"UnitAnimType\":0,\"Type\":1,\"JumpType\":0,\"JumpId\":[],\"JumpConditions\":[],\"StrValues\":[\"MapSkillSub.up_break\"],\"Values\":[1000,150,2,3,0,0,0,0],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[],\"HoldCond\":0}",
+                    "Config2ID": "MapAnimStateConfig_140112",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "MapSkillSub.up_break",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

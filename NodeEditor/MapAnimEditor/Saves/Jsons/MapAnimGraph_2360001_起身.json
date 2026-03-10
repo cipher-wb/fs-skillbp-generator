@@ -1,0 +1,205 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "c3be9981-a79c-497f-99c2-19566d7bcac7",
+            "inputNodeGUID": "4bcd9e0c-35b0-4dd7-8f86-fa7754455954",
+            "outputNodeGUID": "cf6570bc-b1f9-4b39-8b11-7cfe80b2c358",
+            "inputFieldName": "ID",
+            "outputFieldName": "JumpId",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "JumpId",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 545.0,
+                "height": 173.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 1,
+    "path": "Assets/Thirds/NodeEditor/MapAnimEditor/Saves/Jsons/MapAnimGraph_2360001_起身.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "Root",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "cf6570bc-b1f9-4b39-8b11-7cfe80b2c358",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -89.0,
+                        "y": 54.0,
+                        "width": 281.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 2360001,
+                    "Desc": "人型单位-行走动画(自动切换)",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "7C72F879AAB8C4C3C60A6FA6663B0937",
+                    "ConfigJson": "{\"ID\":2360001,\"UnitAnimType\":0,\"Type\":4,\"JumpType\":0,\"JumpId\":[2360003],\"JumpConditions\":[],\"StrValues\":[],\"Values\":[0],\"TimeOut\":5000,\"OutValues\":0}",
+                    "Config2ID": "MapAnimStateConfig_2360001",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "人型单位-行走动画(自动切换)",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "Anim",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "4bcd9e0c-35b0-4dd7-8f86-fa7754455954",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 223.0,
+                        "y": 54.0,
+                        "width": 182.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 2360003,
+                    "Desc": "Rise",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "7C72F879AAB8C4C3C60A6FA6663B0937",
+                    "ConfigJson": "{\"ID\":2360003,\"UnitAnimType\":0,\"Type\":1,\"JumpType\":0,\"JumpId\":[],\"JumpConditions\":[],\"StrValues\":[\"Rise\"],\"Values\":[1,100,0,0,0,0,0,0],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[]}",
+                    "Config2ID": "MapAnimStateConfig_2360003",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "Rise",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

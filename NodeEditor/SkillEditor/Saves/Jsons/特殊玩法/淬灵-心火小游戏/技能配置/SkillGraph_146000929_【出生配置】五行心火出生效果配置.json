@@ -1,0 +1,273 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "99a2ba91-9183-44bc-8879-bd564dd50add",
+            "inputNodeGUID": "c9d175c8-74e7-4920-9e05-1d86df9990fd",
+            "outputNodeGUID": "05f44390-d107-4d4e-92aa-7438e5ea03d0",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "AfterBornSkillEffectExecuteInfo.SkillEffectConfigID",
+            "isVisible": true
+        },
+        {
+            "GUID": "26142c37-1cca-4a44-ae75-3ee1f0f0e0ea",
+            "inputNodeGUID": "c11f0260-f5df-4ef4-a7fa-370cdcdeffbc",
+            "outputNodeGUID": "a15e087c-aa3c-41b6-ad23-b618d91e69a5",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "title": "五行心火-自动吸取范围圈特效子弹配置",
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 1.1304376125335694,
+                "y": -466.00006103515627,
+                "width": 582.0,
+                "height": 419.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "05f44390-d107-4d4e-92aa-7438e5ea03d0",
+                "c9d175c8-74e7-4920-9e05-1d86df9990fd"
+            ]
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/特殊玩法/淬灵-心火小游戏/技能配置/SkillGraph_146000929_【出生配置】五行心火出生效果配置.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a15e087c-aa3c-41b6-ad23-b618d91e69a5",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146000929,
+                    "Desc": "五行心火出生效果",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146000929,\"SkillEffectType\":1,\"Params\":[{\"Value\":146000994,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146000929",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BulletConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "05f44390-d107-4d4e-92aa-7438e5ea03d0",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 26.13043785095215,
+                        "y": -407.0000305175781,
+                        "width": 376.0,
+                        "height": 335.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1460017,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "37B5DDDDE4F69A011ECAA86E3489434E",
+                    "ConfigJson": "{\"ID\":1460017,\"FlyType\":0,\"IsAiEscape\":false,\"AngleAdjustType\":0,\"Speed\":0,\"AcceSpeed\":0,\"MaxSpeed\":0,\"TurnSpeed\":0,\"TurnAcceSpeed\":0,\"MaxTurnSpeed\":0,\"IsOpenPhysicalReflect\":false,\"PhysicalReflectCount\":0,\"PhysicalReflectEndActionType\":0,\"TracePathType\":0,\"TracePathParams\":[],\"LastTime\":999999,\"delayDestroyTime\":30,\"DestroyWhenCreatorDie\":true,\"Hp\":1,\"ATK\":0,\"BeforeBornSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"AfterBornSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":146000332},\"DieSkillEffectExecuteInfo\":{\"SelectConfigID\":0,\"SkillEffectConfigID\":0},\"Model\":60005,\"ModelBaseScalePercent\":0,\"ChainModel\":0,\"ChainModelScalePercent\":0,\"ChainTilingFactor\":0,\"DisappearEffect\":0,\"ModelSound\":0,\"DisappearSound\":0,\"LifeFlag\":1,\"MaxDistance\":0,\"TrackEntityNoTargetSkillEffectConfigID\":0}",
+                    "Config2ID": "BulletConfig_1460017"
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "RefConfigBaseNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "c9d175c8-74e7-4920-9e05-1d86df9990fd",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 442.13043212890627,
+                        "y": -236.00003051757813,
+                        "width": 116.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "TableManagerName": "TableDR.SkillEffectConfigManager",
+                    "ID": 146000332,
+                    "ManualID": 0
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "c11f0260-f5df-4ef4-a7fa-370cdcdeffbc",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 322.86956787109377,
+                        "y": -0.00008392333984375,
+                        "width": 415.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146000994,
+                    "Desc": "SkillGraph_146000984_【模板】五行心火出生技能效果.json",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146000994,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":146000984,\"ParamType\":0,\"Factor\":0},{\"Value\":1460017,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146000994",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "自动吸取范围特效子弹ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/特殊玩法/淬灵-心火小游戏/SkillGraph_146000984_【模板】五行心火出生技能效果.json"
+                    }
+                }
+            }
+        ]
+    }
+}

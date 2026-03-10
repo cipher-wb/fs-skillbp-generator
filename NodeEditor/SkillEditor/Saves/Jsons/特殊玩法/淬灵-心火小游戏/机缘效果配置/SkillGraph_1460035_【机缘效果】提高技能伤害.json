@@ -1,0 +1,536 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        },
+        {
+            "rid": 1005
+        },
+        {
+            "rid": 1006
+        },
+        {
+            "rid": 1007
+        },
+        {
+            "rid": 1008
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "4619eedd-4642-47a1-be79-f6577eb344da",
+            "inputNodeGUID": "8880cae3-3133-43b0-9f75-b28aa67af094",
+            "outputNodeGUID": "2297133c-867e-4d86-8f1e-afbcf1ceeb88",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "4fdf84ff-28e0-47f1-a0ae-535729844a04",
+            "inputNodeGUID": "2bc66f6d-10c3-4e50-a073-e1f76f77d8ca",
+            "outputNodeGUID": "2297133c-867e-4d86-8f1e-afbcf1ceeb88",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "cded3ef2-aa8d-4916-a87b-152ab1cfd02c",
+            "inputNodeGUID": "2297133c-867e-4d86-8f1e-afbcf1ceeb88",
+            "outputNodeGUID": "5244dce4-323a-4b3a-b138-b8d0feb372f9",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        },
+        {
+            "GUID": "08d2a007-31f2-4988-bbe9-cce24a998ff2",
+            "inputNodeGUID": "ea99ff4c-97c0-4287-b29f-f267e63a11e7",
+            "outputNodeGUID": "81386ddc-570f-4934-9bea-d3ce34d7fc49",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "SkillEffectListOnStart",
+            "isVisible": true
+        },
+        {
+            "GUID": "f501a9c5-b9ea-4953-b581-b28ec8e43fd5",
+            "inputNodeGUID": "5244dce4-323a-4b3a-b138-b8d0feb372f9",
+            "outputNodeGUID": "ea99ff4c-97c0-4287-b29f-f267e63a11e7",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "e3af3f5f-b5da-4127-9c4d-1d076edc1bc4",
+            "inputNodeGUID": "4ac24a6f-cb3a-4f27-ad40-bcf5ad7f8134",
+            "outputNodeGUID": "ea99ff4c-97c0-4287-b29f-f267e63a11e7",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "1c2a0bb8-3a14-43e1-a0ff-3743595b5817",
+            "inputNodeGUID": "415b640d-8001-479a-8884-e0b95923ab24",
+            "outputNodeGUID": "8880cae3-3133-43b0-9f75-b28aa67af094",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        },
+        {
+            "GUID": "a2728c1d-46f1-4ed7-bc12-82a796eec8c9",
+            "inputNodeGUID": "ac9d6226-5d02-4e83-8a3b-f471b0cc3aa8",
+            "outputNodeGUID": "4ac24a6f-cb3a-4f27-ad40-bcf5ad7f8134",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "",
+            "title": "火灵根加成：远程伤害技能（止心镜）和控制技能伤害加成（火灵根数值*400%），最多200%",
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 312.1099853515625,
+                "y": -5.290009498596191,
+                "width": 400.0,
+                "height": 200.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "81386ddc-570f-4934-9bea-d3ce34d7fc49",
+                "2297133c-867e-4d86-8f1e-afbcf1ceeb88",
+                "2bc66f6d-10c3-4e50-a073-e1f76f77d8ca",
+                "8880cae3-3133-43b0-9f75-b28aa67af094",
+                "5244dce4-323a-4b3a-b138-b8d0feb372f9",
+                "4ac24a6f-cb3a-4f27-ad40-bcf5ad7f8134",
+                "ea99ff4c-97c0-4287-b29f-f267e63a11e7",
+                "415b640d-8001-479a-8884-e0b95923ab24",
+                "ac9d6226-5d02-4e83-8a3b-f471b0cc3aa8"
+            ]
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/特殊玩法/淬灵-心火小游戏/机缘效果配置/SkillGraph_1460035_【机缘效果】提高技能伤害.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BuffConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "81386ddc-570f-4934-9bea-d3ce34d7fc49",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -366.63128662109377,
+                        "y": 41.89014434814453,
+                        "width": 291.0,
+                        "height": 191.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1460035,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "A4982A349A848A9359FCC2901C191E30",
+                    "ConfigJson": "{\"ID\":1460035,\"BuffNameKey\":0,\"BuffDescKey\":0,\"EffectID\":0,\"EffectIsOverlay\":false,\"Icon\":\"\",\"IsShowIcon\":false,\"ShowIconVisibleType\":0,\"IsHideUiProgress\":false,\"IconPriority\":0,\"BuffTypeFlags\":0,\"BuffLevel\":0,\"LastTime\":0,\"LoopTime\":0,\"OverlyingMax\":0,\"IsRefreshTime\":false,\"SameCoexistType\":0,\"DiffCoexistType\":0,\"IsSkillLevelHighReplaceLow\":false,\"BuffGroups\":[],\"RemoveOtherBuffGroups\":[],\"SkillEffectListOnStart\":[35000028],\"IsDeadExist\":false,\"AddState\":0,\"EffectAttrsOnlySelf\":false,\"Attrs\":[],\"IsTempAttrs\":true,\"SkillTags\":[],\"IsTempSkillTags\":true,\"IsIgnoreStateRules\":false,\"TagIcon\":\"\",\"MarkResourcePath\":\"\",\"MarkResourceShowType\":0,\"MarkResourceShowPos\":0,\"MarkResourceShowAnim\":false,\"MarkResourceShowFullEffect\":false,\"BuffNameEditor\":\"\",\"BuffDescEditor\":\"\"}",
+                    "Config2ID": "BuffConfig_1460035"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_GET_MIN_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "2297133c-867e-4d86-8f1e-afbcf1ceeb88",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 783.7693481445313,
+                        "y": 138.00003051757813,
+                        "width": 301.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001324,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001324,\"SkillEffectType\":39,\"Params\":[{\"Value\":146001326,\"ParamType\":2,\"Factor\":0},{\"Value\":146001325,\"ParamType\":2,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001324",
+                    "SkillEffectType": 39
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "2bc66f6d-10c3-4e50-a073-e1f76f77d8ca",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1115.7694091796875,
+                        "y": 311.0000305175781,
+                        "width": 264.0,
+                        "height": 181.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001325,
+                    "Desc": "最多200%",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001325,\"SkillEffectType\":31,\"Params\":[{\"Value\":200,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001325",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "8880cae3-3133-43b0-9f75-b28aa67af094",
+                    "computeOrder": 5,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1114.7694091796875,
+                        "y": 138.00003051757813,
+                        "width": 264.0,
+                        "height": 181.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001326,
+                    "Desc": "基础40%",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001326,\"SkillEffectType\":31,\"Params\":[{\"Value\":40,\"ParamType\":0,\"Factor\":0},{\"Value\":3,\"ParamType\":0,\"Factor\":0},{\"Value\":35000029,\"ParamType\":2,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001326",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "TSET_MODIFY_SKILL_TAG_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5244dce4-323a-4b3a-b138-b8d0feb372f9",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 255.76942443847657,
+                        "y": 66.0,
+                        "width": 459.0,
+                        "height": 229.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 146001369,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":146001369,\"SkillEffectType\":46,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":205,\"ParamType\":0,\"Factor\":0},{\"Value\":146001324,\"ParamType\":2,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_146001369",
+                    "SkillEffectType": 46
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "TSET_MODIFY_SKILL_TAG_VALUE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "4ac24a6f-cb3a-4f27-ad40-bcf5ad7f8134",
+                    "computeOrder": 6,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 256.0,
+                        "y": 326.96209716796877,
+                        "width": 443.0,
+                        "height": 229.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 35000024,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":35000024,\"SkillEffectType\":46,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":215,\"ParamType\":0,\"Factor\":0},{\"Value\":146001324,\"ParamType\":2,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_35000024",
+                    "SkillEffectType": 46
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "ea99ff4c-97c0-4287-b29f-f267e63a11e7",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -58.0,
+                        "y": 66.0,
+                        "width": 260.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 35000028,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":35000028,\"SkillEffectType\":1,\"Params\":[{\"Value\":146001369,\"ParamType\":0,\"Factor\":0},{\"Value\":35000024,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_35000028",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "415b640d-8001-479a-8884-e0b95923ab24",
+                    "computeOrder": 7,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1426.7694091796875,
+                        "y": 167.00001525878907,
+                        "width": 264.0,
+                        "height": 181.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 35000029,
+                    "Desc": "额外增加火灵根数值，每点4%",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":35000029,\"SkillEffectType\":31,\"Params\":[{\"Value\":460,\"ParamType\":1,\"Factor\":0},{\"Value\":5,\"ParamType\":0,\"Factor\":0},{\"Value\":4,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_35000029",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "RefConfigBaseNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "ac9d6226-5d02-4e83-8a3b-f471b0cc3aa8",
+                    "computeOrder": 8,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 785.0,
+                        "y": 399.96209716796877,
+                        "width": 265.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "TableManagerName": "TableDR.SkillEffectConfigManager",
+                    "ID": 146001324,
+                    "ManualID": 146001324
+                }
+            }
+        ]
+    }
+}

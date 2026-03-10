@@ -1,0 +1,193 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "8b0513a3-8c6b-456f-adff-dceca2b5a725",
+            "inputNodeGUID": "a55a07c3-6c96-4e8f-95e3-621975481802",
+            "outputNodeGUID": "d507e4d4-2e94-4750-9b1f-c54e2ca9466f",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "32d23cd4-3c5c-4a7d-bc07-124b582a438d",
+            "inputNodeGUID": "d507e4d4-2e94-4750-9b1f-c54e2ca9466f",
+            "outputNodeGUID": "a59df3c4-d153-452d-b731-b507a95881f9",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/关卡模板/SkillGraph_28018808_【模板】恢复战斗UI.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a59df3c4-d153-452d-b731-b507a95881f9",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 30.245807647705079,
+                        "y": 0.000010013580322265625,
+                        "width": 257.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28018808,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28018808,\"SkillEffectType\":1,\"Params\":[{\"Value\":28018815,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28018808",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BattleCustomParamConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a55a07c3-6c96-4e8f-95e3-621975481802",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 624.0,
+                        "y": 0.0,
+                        "width": 250.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 280063,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "33C80FD266AB0AE132BEDA9775FF5A69",
+                    "ConfigJson": "{\"ID\":280063,\"Desc\":\"过场UI隐藏恢复\",\"OptionParams\":[{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleTopBuffFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleTopHpFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleRelaseSkillNameFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleSkillFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|GameRockerFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleBuffIconMainRoleFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleCountdownFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleSkillTipFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleRoomFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleMissionFrag\",\"ParamValue\":\"1\"}]}],\"ExtraParams\":[]}",
+                    "Config2ID": "BattleCustomParamConfig_280063"
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_VIEW_OPTION",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "d507e4d4-2e94-4750-9b1f-c54e2ca9466f",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 308.0,
+                        "y": 0.0,
+                        "width": 291.0,
+                        "height": 132.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28018815,
+                    "Desc": "恢复操作UI",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28018815,\"SkillEffectType\":143,\"Params\":[{\"Value\":280063,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28018815",
+                    "SkillEffectType": 143
+                }
+            }
+        ]
+    }
+}

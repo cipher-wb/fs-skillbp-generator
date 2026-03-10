@@ -1,0 +1,126 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "179d70e2-3b61-46d7-bec2-e2e272a83be1",
+            "inputNodeGUID": "987674ee-a27f-4bbf-8b1c-ee0a7a300ded",
+            "outputNodeGUID": "5f957645-840e-436c-8827-c178c1c50f78",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/程序调用/显示配置/SkillGraph_过场UI隐藏恢复.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_VIEW_OPTION",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5f957645-840e-436c-8827-c178c1c50f78",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 363.0,
+                        "y": 194.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 136000081,
+                    "Desc": "通用过场UI隐藏恢复",
+                    "IsExport": true,
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":136000081,\"SkillEffectType\":143,\"Params\":[{\"Value\":1360003,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_136000081",
+                    "SkillEffectType": 143
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BattleCustomParamConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "987674ee-a27f-4bbf-8b1c-ee0a7a300ded",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 732.0,
+                        "y": 194.0,
+                        "width": 242.0,
+                        "height": 75.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1360003,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "33C80FD266AB0AE132BEDA9775FF5A69",
+                    "ConfigJson": "{\"ID\":1360003,\"Desc\":\"过场UI隐藏恢复\",\"OptionParams\":[{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleTopBuffFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleTopHpFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleHUDWindow|BattleRelaseSkillNameFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleSkillFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|GameRockerFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleBuffIconMainRoleFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleCountdownFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleBossShowFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleSkillTipFragment\",\"ParamValue\":\"1\"}]},{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattleRoomFragment\",\"ParamValue\":\"1\"}]}]}",
+                    "Config2ID": "BattleCustomParamConfig_1360003"
+                }
+            }
+        ]
+    }
+}

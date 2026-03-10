@@ -1,0 +1,290 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "bc67c7b0-0eb3-481c-8184-b00a0d50e99d",
+            "inputNodeGUID": "00a7cd2e-f1a6-469d-8934-85a89bdd386d",
+            "outputNodeGUID": "a2674a4d-7252-4536-a806-64a58e57ccbb",
+            "inputFieldName": "ID",
+            "outputFieldName": "JumpId",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "JumpId",
+            "isVisible": true
+        },
+        {
+            "GUID": "798b879d-121b-4f8f-878b-188ced087d26",
+            "inputNodeGUID": "bb59c81e-d0da-418e-a7a3-5664433d4297",
+            "outputNodeGUID": "a2674a4d-7252-4536-a806-64a58e57ccbb",
+            "inputFieldName": "ID",
+            "outputFieldName": "JumpId",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "JumpId",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/MapAnimEditor/Saves/Jsons/道具/MapAnimGraph_140163_神器释放.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "Root",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a2674a4d-7252-4536-a806-64a58e57ccbb",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -0.7315778732299805,
+                        "y": -31.243871688842775,
+                        "width": 219.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140163,
+                    "Desc": "人型单位-神器释放",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "7C72F879AAB8C4C3C60A6FA6663B0937",
+                    "ConfigJson": "{\"ID\":140163,\"UnitAnimType\":0,\"Type\":4,\"JumpType\":2,\"JumpId\":[140153,140154],\"JumpConditions\":[11,1,0,0],\"StrValues\":[],\"Values\":[33],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[]}",
+                    "Config2ID": "MapAnimStateConfig_140163",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "人型单位-神器释放",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "条件跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "Anim",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "00a7cd2e-f1a6-469d-8934-85a89bdd386d",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 391.1701354980469,
+                        "y": -110.95278930664063,
+                        "width": 170.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140153,
+                    "Desc": "Flying_AccelateStart",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "7C72F879AAB8C4C3C60A6FA6663B0937",
+                    "ConfigJson": "{\"ID\":140153,\"UnitAnimType\":0,\"Type\":1,\"JumpType\":0,\"JumpId\":[],\"JumpConditions\":[],\"StrValues\":[\"Flying_AccelateStart\"],\"Values\":[1000,150,0,0,0,0,0,0],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[]}",
+                    "Config2ID": "MapAnimStateConfig_140153",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "Flying_AccelateStart",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "Anim",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "bb59c81e-d0da-418e-a7a3-5664433d4297",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 401.00006103515627,
+                        "y": 124.78262329101563,
+                        "width": 203.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 140154,
+                    "Desc": "Flying_AccelateStart",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "7C72F879AAB8C4C3C60A6FA6663B0937",
+                    "ConfigJson": "{\"ID\":140154,\"UnitAnimType\":0,\"Type\":1,\"JumpType\":0,\"JumpId\":[],\"JumpConditions\":[],\"StrValues\":[\"Flying_AccelateStart\"],\"Values\":[1000,150,0,0,0,0,0,0],\"TimeOut\":5000,\"OutValues\":0,\"PreconditionTarget\":[],\"Preconditions\":[]}",
+                    "Config2ID": "MapAnimStateConfig_140154",
+                    "JumpId": 0,
+                    "paramsAnn": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "Flying_AccelateStart",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "结束跳转",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

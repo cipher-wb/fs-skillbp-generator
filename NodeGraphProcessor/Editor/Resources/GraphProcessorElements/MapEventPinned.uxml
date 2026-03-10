@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="header" picking-mode="Ignore" style="flex-wrap: nowrap; flex-direction: column; min-height: 70px; border-bottom-color: rgb(43, 43, 43); height: auto; width: 100%; background-color: rgb(65, 65, 65); border-bottom-width: 1px;">
+        <ui:VisualElement name="labelContainer" picking-mode="Ignore" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-bottom: 5px; min-width: 0; min-height: 14px;">
+            <ui:Label name="titleLabel" text="工具栏" style="-unity-font-style: normal; -unity-text-align: upper-left;" />
+        </ui:VisualElement>
+        <uie:ToolbarPopupSearchField focusable="true" name="SeachBar" style="width: 95%; margin-bottom: 5px; margin-top: 0;" />
+        <uie:Toolbar name="ToolBar" style="width: 100%; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 5px; min-height: 25px; height: 25px; border-bottom-width: 0;">
+            <ui:Button text="节点列表" display-tooltip-when-elided="true" name="NodeList" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 25%;" />
+            <ui:Button text="日志列表" display-tooltip-when-elided="true" name="LogsList" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 25%;" />
+        </uie:Toolbar>
+    </ui:VisualElement>
+    <ui:VisualElement name="content" picking-mode="Ignore" style="background-color: rgba(39, 39, 39, 0); height: 100%; min-height: auto; color: rgb(89, 89, 89); width: 100%; align-items: stretch;">
+        <ui:Button text="当前节点总数：（0）" display-tooltip-when-elided="true" name="ToolBtn" style="color: rgb(255, 255, 255); height: auto; min-height: 20px; background-color: rgb(75, 75, 75); opacity: 1; overflow: hidden; visibility: visible; display: flex; -unity-text-align: middle-center;" />
+        <ui:ScrollView name="TreeView" style="width: 100%; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

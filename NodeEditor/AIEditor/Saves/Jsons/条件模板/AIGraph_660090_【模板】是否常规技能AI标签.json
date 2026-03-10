@@ -1,0 +1,281 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "2d343898-0fad-48a0-a048-4d8a4792db8b",
+            "inputNodeGUID": "06dec979-628e-4f36-95dd-fcb186e192db",
+            "outputNodeGUID": "c95d7147-d7f1-4d10-aeab-3a4375ef44af",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "f4cecdf1-51a1-4b5f-ab5d-df87787bd08d",
+            "inputNodeGUID": "3cfc6856-16fb-468a-b60a-cd8c4c6dbfac",
+            "outputNodeGUID": "c95d7147-d7f1-4d10-aeab-3a4375ef44af",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "e64d6132-d8d4-4fcc-bac9-b8180132a465",
+            "inputNodeGUID": "9a4ef7f7-dfe5-42b2-a68d-cc2d86a36f3f",
+            "outputNodeGUID": "06dec979-628e-4f36-95dd-fcb186e192db",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 29.0,
+                "width": 341.0,
+                "height": 479.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/条件模板/AIGraph_660090_【模板】是否常规技能AI标签.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSCT_AND",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "c95d7147-d7f1-4d10-aeab-3a4375ef44af",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660090,
+                    "Desc": "是否常规技能AI标签\n注：指可无脑使用的技能标签类型",
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "单位实例ID",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "技能槽位类型",
+                            "RefTypeName": "TSkillSlotType",
+                            "RefPortTypeNames": "TSkillSlotType|SkillEffectConfig",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": true,
+                            "RefTableFullName": "TableDR.TSkillSlotType",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                            "RefPortTypeFullName": "NodeEditor.PortType.ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                            "IsFunctionReturn": true
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "单位实例ID",
+                        "技能槽位类型"
+                    ],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660090,\"SkillConditionType\":1,\"Params\":[{\"Value\":660213,\"ParamType\":0,\"Factor\":0},{\"Value\":660091,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660090",
+                    "SkillConditionType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSCT_NOT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "06dec979-628e-4f36-95dd-fcb186e192db",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 299.0,
+                        "y": 0.0,
+                        "width": 252.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660091,
+                    "Desc": "非指定类型技能类型\n1-治疗\n2-控制\n3-位移\n4-保命\n5-特殊\n6-回蓝\n7-解控",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660091,\"SkillConditionType\":3,\"Params\":[{\"Value\":660093,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660091",
+                    "SkillConditionType": 3
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSCT_IS_SKILL_CONTAIN_SKILL_AI_TAG",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "9a4ef7f7-dfe5-42b2-a68d-cc2d86a36f3f",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 575.0,
+                        "y": 0.0,
+                        "width": 397.0,
+                        "height": 306.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660093,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660093,\"SkillConditionType\":52,\"Params\":[{\"Value\":1,\"ParamType\":4,\"Factor\":0},{\"Value\":2,\"ParamType\":4,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":3,\"ParamType\":0,\"Factor\":0},{\"Value\":4,\"ParamType\":0,\"Factor\":0},{\"Value\":7,\"ParamType\":0,\"Factor\":0},{\"Value\":8,\"ParamType\":0,\"Factor\":0},{\"Value\":9,\"ParamType\":0,\"Factor\":0},{\"Value\":10,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660093",
+                    "SkillConditionType": 52
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSCT_VALUE_COMPARE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "3cfc6856-16fb-468a-b60a-cd8c4c6dbfac",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 299.0,
+                        "y": -180.0,
+                        "width": 264.0,
+                        "height": 180.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660213,
+                    "Desc": "不是空槽位",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660213,\"SkillConditionType\":7,\"Params\":[{\"Value\":2,\"ParamType\":4,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660213",
+                    "SkillConditionType": 7
+                }
+            }
+        ]
+    }
+}

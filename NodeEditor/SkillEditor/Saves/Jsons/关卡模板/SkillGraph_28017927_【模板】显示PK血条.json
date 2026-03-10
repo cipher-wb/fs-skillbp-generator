@@ -1,0 +1,264 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "b0e01252-8059-4c1b-94a6-9ffce0eeb058",
+            "inputNodeGUID": "67e1c2f8-3ad5-4b2a-a7fe-33e5bedfdd50",
+            "outputNodeGUID": "366c9fb2-a9aa-4e10-aaff-ebdd51a84913",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "63e36cdc-1187-4c27-974d-30b50521e483",
+            "inputNodeGUID": "366c9fb2-a9aa-4e10-aaff-ebdd51a84913",
+            "outputNodeGUID": "dfa1d691-1257-4c4c-a658-50f33a5accbb",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "93314f2c-4d1c-4dfc-a684-5ff132b3fc1b",
+            "inputNodeGUID": "77541a2a-fbe0-4d1f-85ed-add29d56809f",
+            "outputNodeGUID": "dfa1d691-1257-4c4c-a658-50f33a5accbb",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/关卡模板/SkillGraph_28017927_【模板】显示PK血条.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "dfa1d691-1257-4c4c-a658-50f33a5accbb",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -19.659732818603517,
+                        "y": -14.00001335144043,
+                        "width": 268.0,
+                        "height": 135.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28017927,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "敌方显示血条单位",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "敌方显示血条单位"
+                    ],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28017927,\"SkillEffectType\":1,\"Params\":[{\"Value\":28017945,\"ParamType\":0,\"Factor\":0},{\"Value\":28017928,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28017927",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_VIEW_OPTION",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "366c9fb2-a9aa-4e10-aaff-ebdd51a84913",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 276.0,
+                        "y": 61.5,
+                        "width": 293.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 295.0,
+                        "y": -40.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28017928,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28017928,\"SkillEffectType\":143,\"Params\":[{\"Value\":280066,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28017928",
+                    "SkillEffectType": 143
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "BattleCustomParamConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "67e1c2f8-3ad5-4b2a-a7fe-33e5bedfdd50",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 589.0,
+                        "y": 61.5,
+                        "width": 250.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 608.0,
+                        "y": -40.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 280066,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "33C80FD266AB0AE132BEDA9775FF5A69",
+                    "ConfigJson": "{\"ID\":280066,\"OptionParams\":[{\"OptionType\":2,\"ParamList\":[{\"ParamName\":\"HotFix.Game.UI.Window.Battle.BattleWindow|BattlePKTopHpFragment\",\"ParamValue\":\"1\"}]}],\"ExtraParams\":[]}",
+                    "Config2ID": "BattleCustomParamConfig_280066"
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_CHANGE_MAIN_CONTROL_ENTITY",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "77541a2a-fbe0-4d1f-85ed-add29d56809f",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 275.8542785644531,
+                        "y": -104.79063415527344,
+                        "width": 306.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 28017945,
+                    "Desc": "",
+                    "IsExport": true,
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":28017945,\"SkillEffectType\":23,\"Params\":[{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_28017945",
+                    "SkillEffectType": 23
+                }
+            }
+        ]
+    }
+}

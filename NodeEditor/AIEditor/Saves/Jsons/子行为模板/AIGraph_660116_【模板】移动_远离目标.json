@@ -1,0 +1,403 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        },
+        {
+            "rid": 1005
+        },
+        {
+            "rid": 1006
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "526391e3-7cd9-4023-bf7a-eb47f4c33aa6",
+            "inputNodeGUID": "63b15ff5-115e-4a40-b211-7987deed48ff",
+            "outputNodeGUID": "5a9c7c1f-c62d-48ec-9afa-aa9f161a1ed3",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        },
+        {
+            "GUID": "3585960b-1838-46f2-a8cc-985c539e8d77",
+            "inputNodeGUID": "45158ff7-fbf6-4f6f-b072-6f0f345225e1",
+            "outputNodeGUID": "63b15ff5-115e-4a40-b211-7987deed48ff",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "ebabb668-b68c-4cc9-a028-5cc10b56058b",
+            "inputNodeGUID": "de8c00f8-81b5-47c7-aff0-6d2abef713be",
+            "outputNodeGUID": "63b15ff5-115e-4a40-b211-7987deed48ff",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "1",
+            "isVisible": true
+        },
+        {
+            "GUID": "17178ee8-db45-40e1-85bf-fe06ba36fe5d",
+            "inputNodeGUID": "478f7c00-bab3-4b07-bc55-147642c3a6ad",
+            "outputNodeGUID": "de8c00f8-81b5-47c7-aff0-6d2abef713be",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "3",
+            "isVisible": true
+        },
+        {
+            "GUID": "5554c26e-88fe-4804-8be8-eb88c93a0961",
+            "inputNodeGUID": "befec90f-ce84-4ab8-b51d-bc50e15ef14f",
+            "outputNodeGUID": "478f7c00-bab3-4b07-bc55-147642c3a6ad",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "6ab638a5-f4c3-428c-9c09-47eb71edba0b",
+            "inputNodeGUID": "66518add-56e3-486a-b51f-fbaad2a9a0b4",
+            "outputNodeGUID": "478f7c00-bab3-4b07-bc55-147642c3a6ad",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 150.0,
+                "height": 200.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 0,
+    "path": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/子行为模板/AIGraph_660116_【模板】移动_远离目标.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "AI_TNT_SEQUENCE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5a9c7c1f-c62d-48ec-9afa-aa9f161a1ed3",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660116,
+                    "Desc": "移动_远离目标",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "1D0B31350567A85990AE24C43B651361",
+                    "ConfigJson": "{\"ID\":660116,\"TaskNodeType\":2,\"Params\":[{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":660136,\"ParamType\":0,\"Factor\":0}],\"SkillTagsList\":[]}",
+                    "Config2ID": "AITaskNodeConfig_660116",
+                    "TaskNodeType": 2,
+                    "AIParamsDesc": [],
+                    "ShowExtraParamInfo": true
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "AI_TNT_CONDITION_ACT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "63b15ff5-115e-4a40-b211-7987deed48ff",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 317.0,
+                        "y": 7.152557373046875e-7,
+                        "width": 280.0,
+                        "height": 163.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660136,
+                    "Desc": "目标存在情况下，朝目标反方向移动",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "1D0B31350567A85990AE24C43B651361",
+                    "ConfigJson": "{\"ID\":660136,\"TaskNodeType\":4,\"Params\":[{\"Value\":660108,\"ParamType\":0,\"Factor\":0},{\"Value\":66000356,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}],\"SkillTagsList\":[]}",
+                    "Config2ID": "AITaskNodeConfig_660136",
+                    "TaskNodeType": 4,
+                    "AIParamsDesc": [],
+                    "ShowExtraParamInfo": true
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSCT_IS_TARGET_ENTITY_EXIST",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "45158ff7-fbf6-4f6f-b072-6f0f345225e1",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 630.4011840820313,
+                        "y": -0.0000069141387939453128,
+                        "width": 312.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660108,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660108,\"SkillConditionType\":14,\"Params\":[{\"Value\":2,\"ParamType\":5,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660108",
+                    "SkillConditionType": 14
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_OPERATE_SIMULATION",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "de8c00f8-81b5-47c7-aff0-6d2abef713be",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 630.0001220703125,
+                        "y": 105.41459655761719,
+                        "width": 327.0,
+                        "height": 167.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000356,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000356,\"SkillEffectType\":214,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0},{\"Value\":66000358,\"ParamType\":2,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000356",
+                    "SkillEffectType": 214
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "TSET_GET_ANGLE_BETWEEN_ENTITY",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "befec90f-ce84-4ab8-b51d-bc50e15ef14f",
+                    "computeOrder": 5,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1314.6705322265625,
+                        "y": 104.99999237060547,
+                        "width": 295.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000357,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000357,\"SkillEffectType\":34,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":236,\"ParamType\":1,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000357",
+                    "SkillEffectType": 34
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "TSET_NUM_CALCULATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "478f7c00-bab3-4b07-bc55-147642c3a6ad",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1031.0,
+                        "y": 105.0,
+                        "width": 260.0,
+                        "height": 143.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000358,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000358,\"SkillEffectType\":31,\"Params\":[{\"Value\":66000357,\"ParamType\":2,\"Factor\":0},{\"Value\":3,\"ParamType\":0,\"Factor\":0},{\"Value\":66000359,\"ParamType\":2,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000358",
+                    "SkillEffectType": 31
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "TSET_CREATE_RANDOM_NUM",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "66518add-56e3-486a-b51f-fbaad2a9a0b4",
+                    "computeOrder": 6,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 1315.0,
+                        "y": 224.0,
+                        "width": 272.0,
+                        "height": 119.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66000359,
+                    "Desc": "反方向角度给一点随机",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66000359,\"SkillEffectType\":29,\"Params\":[{\"Value\":160,\"ParamType\":0,\"Factor\":0},{\"Value\":200,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66000359",
+                    "SkillEffectType": 29
+                }
+            }
+        ]
+    }
+}

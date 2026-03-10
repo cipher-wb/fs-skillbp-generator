@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑器说明</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        .content-container {
+            flex: 1;
+            order: 1;
+        }
+
+        .toc {
+            width: 250px;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            position: sticky;
+            top: 20px;
+            max-height: 90vh;
+            overflow-y: auto;
+            order: 2;
+        }
+
+        .toc h2 {
+            margin-top: 0;
+        }
+
+        .toc-item {
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 3px;
+            transition: all 0.3s;
+        }
+
+        .toc-item:hover {
+            background-color: #e0e0e0;
+        }
+
+        .toc-item.active {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .content-section {
+            width: 950px 70%;
+            background-color: #f9f9f9;
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            animation: fadeIn 0.3s;
+        }
+
+        .content-section-node {
+            background-color: #f1f1f1;
+            display: none;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            animation: fadeIn 0.3s;
+            /*white-space: pre;*/
+        }
+        .active {
+            display: block;
+        }
+
+        .content-section-node:hover {
+            background-color: #e0e0e0;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .directory {
+            list-style: none;
+            padding-left: 20px;
+        }
+        .directory li {
+            margin: 5px 0;
+            cursor: pointer;
+            position: relative;
+        }
+        .directory li::before {
+            content: "📁";
+            margin-right: 5px;
+        }
+        .directory li.file::before {
+            content: "📄";
+        }
+        .directory li.collapsed > ul {
+            display: none;
+        }
+        .directory li > span {
+            color: #007bff;
+        }
+        .directory li > span:hover {
+            text-decoration: underline;
+        }
+        .switch-container {
+            margin: 20px;
+            padding: 15px;
+        }
+
+        /* 滑块开关样式 */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+        /* 内容区域样式 */
+        .content {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 400px;
+            transition: opacity 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 响应式布局 */
+        /*@media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .toc {
+                width: 100%;
+                position: static;
+                order: 1;
+            }
+
+            .content-container {
+                order: 2;
+            }
+        }*/
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <div class="content-section active" id="编辑器说明">
+            <div class="content-section-node">
+                <h3>说明</h3>
+                <ul>
+                    <li><a href="https://www.tapd.cn/49090545/markdown_wikis/show/#1149090545001003169" target="_blank">访问 TAPD wiki</a></li>
+                    <li><a href="https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVE12BzgPFe9PZ319VyeZqMmz?iframeQuery=sheet_range%3Dst-ac73e00a-95477_0_0_1_1" target="_blank">访问 编辑器说明文档</a></li>
+                </ul>
+            </div>
+            <div class="content-section-node">
+                <h3>快捷键</h3>
+                <ul>
+                    <li>Ctrl + S ：保存</li>
+                    <li>Ctrl + F ：查找</li>
+                    <li>Ctrl + Z ：回退（暂时屏蔽：存在反序列化问题）</li>
+                    <li>Ctrl + C ：复制（支持复制节点+连线，支持跨graph）</li>
+                    <li>Ctrl + V ：粘贴（支持粘贴节点ID自动分配，支持跨graph）</li>
+                    <li>Ctrl + D ：复制粘贴</li>
+                    <li>F ：选择节点，则聚焦选中节点</li>
+                    <li>F ：未选择节点，则节点全览</li>
+                    <li>A ：节点全览</li>
+                    <li>O ：聚焦最初节点</li>
+                    <li>[ ：聚焦前一个选择节点</li>
+                    <li>] ：聚焦后一个选择节点</li>
+                    <li>Space/空格 ：新增节点</li>
+                </ul>
+            </div>
+            <div class="content-section-node">
+                <h3>人员ID查询：</h3>
+                <ul>
+                    <li>---------------</li>
+                    <li>远卓：16</li>
+                    <li>徐行：22</li>
+                    <li>世田：23</li>
+                    <li>张震：28</li>
+                    <li>吴波：32</li>
+                    <li>学峰：44</li>
+                    <li>美挺：136|66</li>
+                    <li>瑞彬：146</li>
+                    <li>博超：175</li>
+                    <li>陈兴：197</li>
+                    <li>辛锋：211</li>
+                    <li>高涵：220</li>
+                    <li>蕊涵：223</li>
+                    <li>佳兴：225</li>
+                    <li>----已离职-----</li>
+                    <li>文斌：13</li>
+                    <li>詹旺：24</li>
+                    <li>金锐：29</li>
+                    <li>浩然：35</li>
+                    <li>绍升：38</li>
+                    <li>彭杰：52</li>
+                    <li>楚豪：54</li>
+                    <li>尉源：74</li>
+                    <li>仕钦：78</li>
+                    <li>罗芮：94</li>
+                    <li>白杨：108</li>
+                    <li>少波：108</li>
+                    <li>自立：129</li>
+                    <li>静波：186</li>
+                    <li>未未：190</li>
+                    <li>---------------</li>
+                </ul>
+            </div>
+        </div>
+<!-- 内容 -->
+    </div>
+
+    <div class="toc">
+        <h2>目录</h2>
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+            </label>
+            <span id="statusText">全部</span>
+        </div>
+        <div class="toc-item active" data-target="编辑器说明">编辑器说明</div>
+<!--         <ul class="directory">
+            <li>
+                <span class="toc-item" data-target="编辑器说明">编辑器说明</span>
+                <ul>
+                    <div class="toc-item" data-target="战斗-效果节点配置">战斗-效果节点配置</div>
+                    <li><span>编辑器说明2</span></li>
+                    <li><span>编辑器说明3</span></li>
+                </ul>
+            </li>
+        </ul> -->
+<!-- 标题 -->
+    </div>
+
+    <script>
+        // 获取所有目录项和内容区域
+        const tocItems = document.querySelectorAll('.toc-item');
+        const contentSections = document.querySelectorAll('.content-section');
+        const contentSectionNodes = document.querySelectorAll('.content-section-node');
+
+        contentSectionNodes.forEach(node => node.classList.add('active'));
+
+        // 开关
+        const toggleSwitch = document.getElementById('toggleSwitch');
+        const statusText = document.getElementById('statusText');
+
+        toggleSwitch.addEventListener('change', function() {
+            if (this.checked) {
+                contentSectionNodes.forEach(node => {
+                    const dataType = node.dataset.type ?? '';
+                    if (dataType.indexOf("不常用") != -1 || dataType.indexOf("不显示") != -1) {
+                        node.classList.remove('active');
+                    }
+                    else {
+                        node.classList.add('active');
+                    }
+                });
+                statusText.textContent = '常用';
+                statusText.style.color = '#2196F3';
+            } else {
+                contentSectionNodes.forEach(node => node.classList.add('active'));
+                statusText.textContent = '全部';
+                statusText.style.color = '#666';
+            }
+        });
+
+        // 为每个目录项添加点击事件
+        tocItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const targetId = item.dataset.target;
+                
+                // 移除所有激活状态
+                tocItems.forEach(i => i.classList.remove('active'));
+                contentSections.forEach(section => section.classList.remove('active'));
+
+                // 添加当前激活状态
+                item.classList.add('active');
+                document.getElementById(targetId).classList.add('active');
+            });
+        });
+
+        // 处理文件夹收起
+        document.querySelectorAll('.directory li').forEach(item => {
+            if (item.querySelector('ul')) {
+                item.classList.add('collapsed');
+                item.addEventListener('click', function(e) {
+                    console.log(e.target.tagName);
+                    if (e.target.tagName == 'DIV') {
+                        // this.classList.toggle('avtive');
+                    }
+                    else {
+                        // 收缩
+                        this.classList.toggle('collapsed');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

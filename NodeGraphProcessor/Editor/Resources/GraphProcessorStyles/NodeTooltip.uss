@@ -1,0 +1,44 @@
+NodeTootipView {
+    position: absolute;
+    min-width: 110px;
+    max-width: 300px;
+    -unity-slice-top: 40;
+    -unity-slice-left: 80;
+    -unity-slice-right: 25;
+    -unity-slice-bottom: 25;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    background-image: resource("Settings_Flyout_9slice");
+}
+
+NodeTootipView > #mainContainer {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+NodeTootipView Label#header {
+    padding-bottom: 4px;
+    -unity-font-style: bold;
+}
+
+NodeTootipView Label.unity-text-element {
+    min-width: 110px;
+    font-size: 10px;
+    padding-right: 6px;
+}
+
+NodeTootipView .unity-base-field > .unity-base-field__input {
+    justify-content: flex-end;
+    min-width: 20px;
+}
+
+NodeTootipView > #mainContainer > #contentContainer {
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+}

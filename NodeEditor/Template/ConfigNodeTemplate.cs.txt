@@ -1,0 +1,22 @@
+/////////////////////////////////////
+// 注意！！此代码文件由工具自动生成！！ 
+// 扩展方法请新建文件扩展partial类实现 
+// 如:#CONFIGNAME#.Custom.cs
+/////////////////////////////////////
+
+using GraphProcessor;
+using System;
+using TableDR;
+
+namespace NodeEditor
+{
+// TEMPLATE_CONTENT_BEGIN
+    #region #CONFIGNAME#
+    [Serializable]#ATTRIBUTES#
+    public partial class #CONFIGNAME#Node : ConfigBaseNode<#CONFIGNAME#>
+    {
+        public #CONFIGNAME#Node() : base() { }
+    }
+    #endregion #CONFIGNAME#
+// TEMPLATE_CONTENT_END
+}

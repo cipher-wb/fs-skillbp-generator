@@ -1,0 +1,196 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<BaseOutputPath>$(MSBuildProjectDirectory)\..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\bin</BaseOutputPath>
+		<BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\obj</BaseIntermediateOutputPath>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>$(DefineConstants);TRACE;NodeExport</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DefineConstants>$(DefineConstants);TRACE;NodeExport</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="AIEditor\**" />
+		<Compile Remove="AutoGenerate\**" />
+		<Compile Remove="Base\ConditionalGraph\**" />
+		<Compile Remove="Base\ConfigEditor\**" />
+		<Compile Remove="Base\DefaultNodes\**" />
+		<Compile Remove="Base\FallbackGraph\**" />
+		<Compile Remove="Base\NPBehaveGraph\**" />
+		<Compile Remove="Base\UniversalGraph\**" />
+		<Compile Remove="Datas\**" />
+		<Compile Remove="DreamlandCurveEditor\**" />
+		<Compile Remove="GamePlayEditor\**" />
+		<Compile Remove="MapAnimEditor\**" />
+		<Compile Remove="Nodes\**" />
+		<Compile Remove="NpcEventEditor\**" />
+		<Compile Remove="obj\**" />
+		<Compile Remove="SkillEditor\**" />
+		<Compile Remove="Stacks\**" />
+		<Compile Remove="TableDR_CS\**" />
+		<Compile Remove="Template\**" />
+		<Compile Remove="UIElements\**" />
+		<Compile Remove="Useless\**" />
+		<EmbeddedResource Remove="AIEditor\**" />
+		<EmbeddedResource Remove="AutoGenerate\**" />
+		<EmbeddedResource Remove="Base\ConditionalGraph\**" />
+		<EmbeddedResource Remove="Base\ConfigEditor\**" />
+		<EmbeddedResource Remove="Base\DefaultNodes\**" />
+		<EmbeddedResource Remove="Base\FallbackGraph\**" />
+		<EmbeddedResource Remove="Base\NPBehaveGraph\**" />
+		<EmbeddedResource Remove="Base\UniversalGraph\**" />
+		<EmbeddedResource Remove="Datas\**" />
+		<EmbeddedResource Remove="DreamlandCurveEditor\**" />
+		<EmbeddedResource Remove="GamePlayEditor\**" />
+		<EmbeddedResource Remove="MapAnimEditor\**" />
+		<EmbeddedResource Remove="Nodes\**" />
+		<EmbeddedResource Remove="NpcEventEditor\**" />
+		<EmbeddedResource Remove="obj\**" />
+		<EmbeddedResource Remove="SkillEditor\**" />
+		<EmbeddedResource Remove="Stacks\**" />
+		<EmbeddedResource Remove="TableDR_CS\**" />
+		<EmbeddedResource Remove="Template\**" />
+		<EmbeddedResource Remove="UIElements\**" />
+		<EmbeddedResource Remove="Useless\**" />
+		<None Remove="AIEditor\**" />
+		<None Remove="AutoGenerate\**" />
+		<None Remove="Base\ConditionalGraph\**" />
+		<None Remove="Base\ConfigEditor\**" />
+		<None Remove="Base\DefaultNodes\**" />
+		<None Remove="Base\FallbackGraph\**" />
+		<None Remove="Base\NPBehaveGraph\**" />
+		<None Remove="Base\UniversalGraph\**" />
+		<None Remove="Datas\**" />
+		<None Remove="DreamlandCurveEditor\**" />
+		<None Remove="GamePlayEditor\**" />
+		<None Remove="MapAnimEditor\**" />
+		<None Remove="Nodes\**" />
+		<None Remove="NpcEventEditor\**" />
+		<None Remove="obj\**" />
+		<None Remove="SkillEditor\**" />
+		<None Remove="Stacks\**" />
+		<None Remove="TableDR_CS\**" />
+		<None Remove="Template\**" />
+		<None Remove="UIElements\**" />
+		<None Remove="Useless\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="Base\GraphAssetCallbacks.cs" />
+		<Compile Remove="Base\GraphAssetInspector.cs" />
+		<Compile Remove="Base\GraphBehaviour.cs" />
+		<Compile Remove="Base\GraphBehaviourEditor.cs" />
+		<Compile Remove="Base\GraphData.cs" />
+		<Compile Remove="Base\GraphDataSearch.cs" />
+		<Compile Remove="Base\GraphHelper.cs" />
+		<Compile Remove="Base\GraphProcessorMenuItems.cs" />
+		<Compile Remove="Base\VirtualNodeData.cs" />
+		<Compile Remove="ConfigJsonAnnotation.cs" />
+		<Compile Remove="ConfigMemberAnnotaion.cs" />
+		<Compile Remove="FromFiledAnnotation.cs" />
+		<Compile Remove="Log\LogRedirection.cs" />
+		<Compile Remove="NodeEditorManager.cs" />
+		<Compile Remove="NodeEditorManager.Event.cs" />
+		<Compile Remove="NodeEditorManager.Setting.cs" />
+		<Compile Remove="NodeEditorTool.cs" />
+		<Compile Remove="NodeEditorWindow.cs" />
+		<Compile Remove="RefPortAnnotation.cs" />
+		<Compile Remove="Utils\ConfigEdgeConnectorListener.cs" />
+		<Compile Remove="Utils\EditorCoroutineRunner.cs" />
+		<Compile Remove="Utils\GlobalInput.Runtime.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="AIEditor.meta" />
+		<None Remove="AutoGenerate.meta" />
+		<None Remove="Base.meta" />
+		<None Remove="Base\ConditionalGraph.meta" />
+		<None Remove="Base\ConfigEditor.meta" />
+		<None Remove="Base\DefaultNodes.meta" />
+		<None Remove="Base\FallbackGraph.meta" />
+		<None Remove="Base\GraphAssetCallbacks.cs.meta" />
+		<None Remove="Base\GraphAssetInspector.cs.meta" />
+		<None Remove="Base\GraphBehaviour.cs.meta" />
+		<None Remove="Base\GraphBehaviourEditor.cs.meta" />
+		<None Remove="Base\GraphData.cs.meta" />
+		<None Remove="Base\GraphDataSearch.cs.meta" />
+		<None Remove="Base\GraphHelper.cs.meta" />
+		<None Remove="Base\GraphProcessorMenuItems.cs.meta" />
+		<None Remove="Base\NodeEditorException.cs.meta" />
+		<None Remove="Base\NPBehaveGraph.meta" />
+		<None Remove="Base\UniversalGraph.meta" />
+		<None Remove="Base\VirtualNodeData.cs.meta" />
+		<None Remove="ConfigJsonAnnotation.cs.meta" />
+		<None Remove="ConfigMemberAnnotaion.cs.meta" />
+		<None Remove="Datas.meta" />
+		<None Remove="Define.meta" />
+		<None Remove="DesignTable.meta" />
+		<None Remove="DreamlandCurveEditor.meta" />
+		<None Remove="Excel.meta" />
+		<None Remove="Excel_NodeExport - Backup.csproj.meta" />
+		<None Remove="Excel_NodeExport.csproj.meta" />
+		<None Remove="FromFiledAnnotation.cs.meta" />
+		<None Remove="GamePlayEditor.meta" />
+		<None Remove="Log.meta" />
+		<None Remove="Log\LogRedirection.cs.meta" />
+		<None Remove="MapAnimEditor.meta" />
+		<None Remove="NodeEditor.asmdef" />
+		<None Remove="NodeEditor.asmdef.meta" />
+		<None Remove="NodeEditorManager.cs.meta" />
+		<None Remove="NodeEditorManager.Event.cs.meta" />
+		<None Remove="NodeEditorManager.Setting.cs.meta" />
+		<None Remove="NodeEditorTool.cs.meta" />
+		<None Remove="NodeEditorWindow.cs.meta" />
+		<None Remove="Nodes.meta" />
+		<None Remove="NpcEventEditor.meta" />
+		<None Remove="obj.meta" />
+		<None Remove="RefPortAnnotation.cs.meta" />
+		<None Remove="SkillEditor.meta" />
+		<None Remove="Stacks.meta" />
+		<None Remove="TableDR_CS.meta" />
+		<None Remove="Template.meta" />
+		<None Remove="UIElements.meta" />
+		<None Remove="Utils.meta" />
+		<None Remove="Utils\ConfigEdgeConnectorListener.cs.meta" />
+		<None Remove="Utils\EditorCoroutineRunner.cs.meta" />
+		<None Remove="Utils\GlobalInput.Runtime.cs.meta" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.Data.OleDb" Version="7.0.0" />
+		<PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\..\Program\Other\NodeJsonToExcel\TableLoader\TableLoader.csproj" />
+		<ProjectReference Include="..\..\Scripts\TableDR_CS\Table_NodeExport.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="EPPlus">
+			<HintPath>..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\lib\EPPlus.dll</HintPath>
+		</Reference>
+		<Reference Include="EPPlus.Interfaces">
+			<HintPath>..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\lib\EPPlus.Interfaces.dll</HintPath>
+		</Reference>
+		<Reference Include="EPPlus.System.Drawing">
+			<HintPath>..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\lib\EPPlus.System.Drawing.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.IO.RecyclableMemoryStream">
+			<HintPath>..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\lib\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+		</Reference>
+		<Reference Include="Sirenix.Utilities">
+			<HintPath>..\..\..\..\..\Program\Other\NodeJsonToExcel\NodeJsonToExcel\lib\Sirenix.Utilities.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

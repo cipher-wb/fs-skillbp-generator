@@ -1,0 +1,387 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "ba186017-2abc-4f63-9131-174cfcaf3479",
+            "inputNodeGUID": "525b8493-101d-421f-8e9f-1e6a00785537",
+            "outputNodeGUID": "78f93a9a-fd50-4f94-89f2-70ba02c882b8",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "0a0fd2ab-4cf6-46bf-bb30-12030ed438fa",
+            "inputNodeGUID": "25211841-7f33-4b7b-9091-a4443df88639",
+            "outputNodeGUID": "525b8493-101d-421f-8e9f-1e6a00785537",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "436e50c8-d54b-42fa-975d-cec804647c78",
+            "inputNodeGUID": "4229439e-1513-4571-aa3b-3bdbdff95d38",
+            "outputNodeGUID": "525b8493-101d-421f-8e9f-1e6a00785537",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "010a329f-224e-475a-9fe7-2d593e5754ba",
+            "inputNodeGUID": "ffa646e4-96c8-470a-b285-084c3114666d",
+            "outputNodeGUID": "525b8493-101d-421f-8e9f-1e6a00785537",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 63.0,
+                "width": 356.0,
+                "height": 320.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/监测分支/AIGraph_660070_施法_外门.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "AI_TNT_MONITROE_BRANCH",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "78f93a9a-fd50-4f94-89f2-70ba02c882b8",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 87.71268463134766,
+                        "y": -281.0,
+                        "width": 281.0,
+                        "height": 176.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660070,
+                    "Desc": "常规施法_外门",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "1D0B31350567A85990AE24C43B651361",
+                    "ConfigJson": "{\"ID\":660070,\"TaskNodeType\":13,\"Params\":[{\"Value\":660087,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}],\"SkillTagsList\":[]}",
+                    "Config2ID": "AITaskNodeConfig_660070",
+                    "TaskNodeType": 13,
+                    "AIParamsDesc": [],
+                    "ShowExtraParamInfo": true
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSCT_GET_TEMPLATE_COND_RESULT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "4229439e-1513-4571-aa3b-3bdbdff95d38",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 708.0001220703125,
+                        "y": -163.00001525878907,
+                        "width": 481.0,
+                        "height": 264.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660069,
+                    "Desc": "AIGraph_660083_【模板】技能是否范围内可使用.json\n-----------------------模板说明-----------------------\n技能是否范围内可使用\n1-技能是否可使用\n2-AI目标在范围内",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660069,\"SkillConditionType\":23,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":660083,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660069",
+                    "SkillConditionType": 23,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "单位实例ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能槽位类型",
+                                "RefTypeName": "TSkillSlotType",
+                                "RefPortTypeNames": "TSkillSlotType|SkillEffectConfig",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TSkillSlotType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                                "RefPortTypeFullName": "NodeEditor.PortType.ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                                "IsFunctionReturn": true
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/条件模板/AIGraph_660083_【模板】技能是否范围内可使用.json"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSCT_AND",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "525b8493-101d-421f-8e9f-1e6a00785537",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 397.0,
+                        "y": -281.0,
+                        "width": 253.0,
+                        "height": 95.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660087,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660087,\"SkillConditionType\":1,\"Params\":[{\"Value\":660098,\"ParamType\":0,\"Factor\":0},{\"Value\":660069,\"ParamType\":0,\"Factor\":0},{\"Value\":282168,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660087",
+                    "SkillConditionType": 1
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSCT_GET_TEMPLATE_COND_RESULT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "25211841-7f33-4b7b-9091-a4443df88639",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 708.0,
+                        "y": -412.0000305175781,
+                        "width": 468.0,
+                        "height": 249.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660098,
+                    "Desc": "AIGraph_660090_【模板】是否常规技能AI标签.json\n-----------------------模板说明-----------------------\n是否常规技能AI标签\n注：指可无脑使用的技能标签类型",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":660098,\"SkillConditionType\":23,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":660090,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_660098",
+                    "SkillConditionType": 23,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "单位实例ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            },
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能槽位类型",
+                                "RefTypeName": "TSkillSlotType",
+                                "RefPortTypeNames": "TSkillSlotType|SkillEffectConfig",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TSkillSlotType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                                "RefPortTypeFullName": "NodeEditor.PortType.ConfigPortType_SkillEffectConfig_TSkillSlotType",
+                                "IsFunctionReturn": true
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/条件模板/AIGraph_660090_【模板】是否常规技能AI标签.json"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "TSCT_GET_TEMPLATE_COND_RESULT",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "ffa646e4-96c8-470a-b285-084c3114666d",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 715.0,
+                        "y": 120.65218353271485,
+                        "width": 413.0,
+                        "height": 180.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 282168,
+                    "Desc": "AIGraph_282110_【模板】AI使用技能.json",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":282168,\"SkillConditionType\":23,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":282110,\"ParamType\":0,\"Factor\":0},{\"Value\":2,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_282168",
+                    "SkillConditionType": 23,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "技能槽位",
+                                "RefTypeName": "TSkillSlotType",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "",
+                                "isConfigId": false,
+                                "isEnum": true,
+                                "RefTableFullName": "TableDR.TSkillSlotType",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/条件模板/AIGraph_282110_【模板】AI使用技能.json"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "4333ae3c-d4df-4b68-aa6c-bd776721e949",
+            "inputNodeGUID": "543d2391-abad-4660-8177-7095ed7dbe72",
+            "outputNodeGUID": "ca49b610-b7bf-415c-9aad-639cce341acb",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedMembersOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "AIEffect",
+            "isVisible": true
+        },
+        {
+            "GUID": "965b8adb-a00c-4a1e-8e1d-0714c8759422",
+            "inputNodeGUID": "07c7466a-07f6-409e-9c4c-dcaa2cb46c73",
+            "outputNodeGUID": "86f39bd7-b9c9-4ed9-9204-d700b92f8836",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "1",
+            "isVisible": true
+        },
+        {
+            "GUID": "05020fc5-3220-4480-916b-7ab76836e161",
+            "inputNodeGUID": "86f39bd7-b9c9-4ed9-9204-d700b92f8836",
+            "outputNodeGUID": "543d2391-abad-4660-8177-7095ed7dbe72",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "2",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "6f86a918-9cec-4729-ab01-f1c3819fbb65",
+            "title": "常规角色AI",
+            "color": {
+                "r": 0.9905660152435303,
+                "g": 0.7335795760154724,
+                "b": 0.7335795760154724,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 604.0,
+                "y": -9.0,
+                "width": 608.0,
+                "height": 216.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "07c7466a-07f6-409e-9c4c-dcaa2cb46c73",
+                "86f39bd7-b9c9-4ed9-9204-d700b92f8836"
+            ],
+            "innerStickyNoteGUIDs": []
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 27.0,
+                "width": 210.0,
+                "height": 219.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/AIEditor/Saves/Jsons/自动战斗测试/AIGraph_660017_【自动战斗测试】随机技能模式.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BattleAIConfigNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "ca49b610-b7bf-415c-9aad-639cce341acb",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": -7.152557373046875e-7,
+                        "y": -10.999991416931153,
+                        "width": 256.0,
+                        "height": 179.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660017,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "164214AF191B9A02437D993A3AE353A0",
+                    "ConfigJson": "{\"ID\":660017,\"AIName\":\"【自动战斗测试】随机技能模式\",\"AIEffect\":660201,\"AISkillEffectConfigID\":0,\"AIRemoveSkillEffectConfigID\":0,\"AISkillTagsList\":[{\"SkillTagConfigID\":280021,\"Value\":250},{\"SkillTagConfigID\":660152,\"Value\":1},{\"SkillTagConfigID\":660035,\"Value\":0},{\"SkillTagConfigID\":660032,\"Value\":0}]}",
+                    "Config2ID": "BattleAIConfig_660017"
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "AI_TNT_SEQUENCE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "543d2391-abad-4660-8177-7095ed7dbe72",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 278.70001220703127,
+                        "y": -10.999935150146485,
+                        "width": 279.0,
+                        "height": 162.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 660201,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "1D0B31350567A85990AE24C43B651361",
+                    "ConfigJson": "{\"ID\":660201,\"TaskNodeType\":2,\"Params\":[{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0},{\"Value\":66001809,\"ParamType\":0,\"Factor\":0}],\"SkillTagsList\":[]}",
+                    "Config2ID": "AITaskNodeConfig_660201",
+                    "TaskNodeType": 2,
+                    "AIParamsDesc": [],
+                    "ShowExtraParamInfo": true
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_CHANGE_AI",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "86f39bd7-b9c9-4ed9-9204-d700b92f8836",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 629.0,
+                        "y": 41.0,
+                        "width": 290.0,
+                        "height": 118.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66001809,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TemplateParamsCustomAdd": false,
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66001809,\"SkillEffectType\":227,\"Params\":[{\"Value\":75,\"ParamType\":1,\"Factor\":0},{\"Value\":660107,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66001809",
+                    "SkillEffectType": 227,
+                    "UseExtraParam": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "RefConfigBaseNode",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "07c7466a-07f6-409e-9c4c-dcaa2cb46c73",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 951.0,
+                        "y": 51.0,
+                        "width": 236.0,
+                        "height": 131.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "TableManagerName": "TableDR.BattleAIConfigManager",
+                    "ID": 660107,
+                    "ManualID": 660107
+                }
+            }
+        ]
+    }
+}

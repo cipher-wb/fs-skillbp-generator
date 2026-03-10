@@ -1,0 +1,536 @@
+{
+    "serializationData": {
+        "SerializedFormat": 0,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "nodes": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        },
+        {
+            "rid": 1005
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "c2302f38-3351-4eda-bf77-03d031e9282f",
+            "inputNodeGUID": "7792b1e6-f3a8-4abf-8dbf-c97d8f2e3af6",
+            "outputNodeGUID": "0a589cfe-9ede-487e-ac2d-59e5103cae94",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "3950632e-fb18-455d-830c-a6bde6ba4fc9",
+            "inputNodeGUID": "5e50d83a-57e1-4124-87dc-d9db3001e258",
+            "outputNodeGUID": "0a589cfe-9ede-487e-ac2d-59e5103cae94",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "47d76059-281e-473d-9e54-3f5cd67acdc9",
+            "inputNodeGUID": "e552bea5-a765-4acc-a8d7-49d1c0286bf2",
+            "outputNodeGUID": "0a589cfe-9ede-487e-ac2d-59e5103cae94",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        },
+        {
+            "GUID": "a7adb486-1ff0-442a-813f-91fd2f8af95d",
+            "inputNodeGUID": "b55be11c-cf96-4f56-bf91-fa9de3c86701",
+            "outputNodeGUID": "e552bea5-a765-4acc-a8d7-49d1c0286bf2",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "1",
+            "isVisible": true
+        },
+        {
+            "GUID": "c0d1651b-e94d-4120-ab58-95b8fb014429",
+            "inputNodeGUID": "a35553b0-f0f9-46d2-a739-5f67b2669db0",
+            "outputNodeGUID": "e552bea5-a765-4acc-a8d7-49d1c0286bf2",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0",
+            "isVisible": true
+        }
+    ],
+    "groups": [
+        {
+            "GUID": "885dbe87-5f5c-4a90-829b-31f28015efa4",
+            "title": "中断前摇",
+            "color": {
+                "r": 1.0,
+                "g": 0.2971698045730591,
+                "b": 0.2971698045730591,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 491.75,
+                "y": -515.7000732421875,
+                "width": 519.0,
+                "height": 301.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "5e50d83a-57e1-4124-87dc-d9db3001e258"
+            ]
+        },
+        {
+            "GUID": "2e837298-551e-4324-b2f4-289f3bdcfd70",
+            "title": "中断持续施法",
+            "color": {
+                "r": 0.34117648005485537,
+                "g": 0.13333334028720857,
+                "b": 0.13333334028720857,
+                "a": 1.0
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 493.612548828125,
+                "y": -196.90249633789063,
+                "width": 519.0,
+                "height": 304.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "7792b1e6-f3a8-4abf-8dbf-c97d8f2e3af6"
+            ]
+        },
+        {
+            "GUID": "6b1ffa33-ab95-49b8-ace8-85d7158ae00d",
+            "title": "中断技能",
+            "color": {
+                "r": 0.849056601524353,
+                "g": 0.4685831367969513,
+                "b": 0.4685831367969513,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 245.98501586914063,
+                "y": 56.86750030517578,
+                "width": 400.0,
+                "height": 200.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "0a589cfe-9ede-487e-ac2d-59e5103cae94"
+            ]
+        },
+        {
+            "GUID": "445b36c8-4fbf-4931-9092-40339954b326",
+            "title": "动作重置",
+            "color": {
+                "r": 0.125490203499794,
+                "g": 0.125490203499794,
+                "b": 0.125490203499794,
+                "a": 0.30000001192092898
+            },
+            "position": {
+                "serializedVersion": "2",
+                "x": 487.0,
+                "y": 131.0,
+                "width": 873.0,
+                "height": 416.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 200.0
+            },
+            "innerNodeGUIDs": [
+                "b55be11c-cf96-4f56-bf91-fa9de3c86701",
+                "e552bea5-a765-4acc-a8d7-49d1c0286bf2",
+                "a35553b0-f0f9-46d2-a739-5f67b2669db0"
+            ]
+        }
+    ],
+    "stackNodes": [],
+    "pinnedElements": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 26.0,
+                "width": 374.0,
+                "height": 337.0
+            },
+            "opened": true,
+            "editorType": {
+                "serializedType": "NodeEditor.ConfigPinnedView, NodeEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            }
+        }
+    ],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [
+        {
+            "position": {
+                "serializedVersion": "2",
+                "x": 100.39566040039063,
+                "y": -242.932373046875,
+                "width": 265.0,
+                "height": 172.0
+            },
+            "title": "打断逻辑说明",
+            "content": "1-本模板打断单位所有技能\n2-打断按照SkillTag打断\n3-不再按照buff删除处理，buff的打断统一按照buff配置里的打断组配置来"
+        }
+    ],
+    "curTab": 3,
+    "path": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/程序调用/SkillGraph_136000067_【模板】中断技能.json",
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TSET_ORDER_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "0a589cfe-9ede-487e-ac2d-59e5103cae94",
+                    "computeOrder": 0,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 118.0,
+                        "y": 29.649995803833009,
+                        "width": 265.0,
+                        "height": 172.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 136000067,
+                    "Desc": "中断技能",
+                    "IsTemplate": true,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "单位实例ID",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        },
+                        {
+                            "DefaultValueDesc": "",
+                            "Name": "是否同时重置动作",
+                            "RefTypeName": "",
+                            "RefPortTypeNames": "",
+                            "DefalutParam": {},
+                            "DefalutParamJson": "{\"Value\":1,\"ParamType\":0,\"Factor\":0}",
+                            "isConfigId": false,
+                            "isEnum": false,
+                            "RefTableFullName": "",
+                            "RefTableManagerName": "",
+                            "RefPortTypeName": "",
+                            "RefPortTypeFullName": "",
+                            "IsFunctionReturn": false
+                        }
+                    ],
+                    "TemplateParamsDesc": [
+                        "单位实例ID",
+                        "是否同时重置动作"
+                    ],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":136000067,\"SkillEffectType\":1,\"Params\":[{\"Value\":66001074,\"ParamType\":0,\"Factor\":0},{\"Value\":66001073,\"ParamType\":0,\"Factor\":0},{\"Value\":190015194,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_136000067",
+                    "SkillEffectType": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "b55be11c-cf96-4f56-bf91-fa9de3c86701",
+                    "computeOrder": 2,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 910.0,
+                        "y": 322.0,
+                        "width": 425.0,
+                        "height": 200.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 136000138,
+                    "Desc": "SkillGraph_136000128_【模板】动作重置.json\n-----------------------模板说明-----------------------\n动作重置",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":136000138,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":4,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":136000128,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_136000138",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/技能模板/技能/SkillGraph_136000128_【模板】动作重置.json"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "5e50d83a-57e1-4124-87dc-d9db3001e258",
+                    "computeOrder": 3,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 516.0000610351563,
+                        "y": -464.0001220703125,
+                        "width": 469.0,
+                        "height": 224.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66001074,
+                    "Desc": "SkillGraph_136000065_【模板】中断技能前摇.json\n-----------------------模板说明-----------------------\n中断技能前摇",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66001074,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":136000065,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":4,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66001074",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "单位实例ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/程序调用/SkillGraph_136000065_【模板】中断技能前摇.json"
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TSET_RUN_SKILL_EFFECT_TEMPLATE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "7792b1e6-f3a8-4abf-8dbf-c97d8f2e3af6",
+                    "computeOrder": 4,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 518.6124877929688,
+                        "y": -141.90252685546876,
+                        "width": 469.0,
+                        "height": 224.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 66001073,
+                    "Desc": "SkillGraph_136000066_【模板】中断技能持续施法.json\n-----------------------模板说明-----------------------\n中断技能持续施法",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":66001073,\"SkillEffectType\":118,\"Params\":[{\"Value\":1,\"ParamType\":5,\"Factor\":0},{\"Value\":2,\"ParamType\":5,\"Factor\":0},{\"Value\":136000066,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":4,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_66001073",
+                    "SkillEffectType": 118,
+                    "TemplateData": {
+                        "TemplateParams": [
+                            {
+                                "DefaultValueDesc": "",
+                                "Name": "主体单位实例ID",
+                                "RefTypeName": "",
+                                "RefPortTypeNames": "",
+                                "DefalutParam": {},
+                                "DefalutParamJson": "{\"Value\":1,\"ParamType\":5,\"Factor\":0}",
+                                "isConfigId": false,
+                                "isEnum": false,
+                                "RefTableFullName": "",
+                                "RefTableManagerName": "",
+                                "RefPortTypeName": "",
+                                "RefPortTypeFullName": "",
+                                "IsFunctionReturn": false
+                            }
+                        ],
+                        "TemplatePath": "Assets/Thirds/NodeEditor/SkillEditor/Saves/Jsons/程序调用/SkillGraph_136000066_【模板】中断技能持续施法.json"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "TSET_CONDITION_EXECUTE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "e552bea5-a765-4acc-a8d7-49d1c0286bf2",
+                    "computeOrder": 1,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 512.0,
+                        "y": 210.0,
+                        "width": 315.0,
+                        "height": 123.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 190015194,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "0CFA05568A66FEA1DF3BA6FE40DB7080",
+                    "ConfigJson": "{\"ID\":190015194,\"SkillEffectType\":47,\"Params\":[{\"Value\":1901041,\"ParamType\":0,\"Factor\":0},{\"Value\":136000138,\"ParamType\":0,\"Factor\":0},{\"Value\":0,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillEffectConfig_190015194",
+                    "SkillEffectType": 47
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "TSCT_VALUE_COMPARE",
+                    "ns": "NodeEditor",
+                    "asm": "NodeEditor"
+                },
+                "data": {
+                    "GUID": "a35553b0-f0f9-46d2-a739-5f67b2669db0",
+                    "computeOrder": 5,
+                    "position": {
+                        "serializedVersion": "2",
+                        "x": 910.0,
+                        "y": 181.0,
+                        "width": 267.0,
+                        "height": 123.0
+                    },
+                    "expanded": false,
+                    "debug": false,
+                    "nodeLock": false,
+                    "visible": true,
+                    "hideChildNodes": false,
+                    "hidePos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "hideCounter": 0,
+                    "ID": 1901041,
+                    "Desc": "",
+                    "IsTemplate": false,
+                    "TemplateFlags": 0,
+                    "TemplateParams": [],
+                    "TemplateParamsDesc": [],
+                    "TableTash": "ED89F46EAB95F7ACF5C1911A5A375278",
+                    "ConfigJson": "{\"ID\":1901041,\"SkillConditionType\":7,\"Params\":[{\"Value\":2,\"ParamType\":4,\"Factor\":0},{\"Value\":4,\"ParamType\":0,\"Factor\":0},{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                    "Config2ID": "SkillConditionConfig_1901041",
+                    "SkillConditionType": 7
+                }
+            }
+        ]
+    }
+}

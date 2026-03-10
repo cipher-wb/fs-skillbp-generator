@@ -1,0 +1,106 @@
+{
+    "serializationData": {
+        "SerializedFormat": 2,
+        "SerializedBytes": [],
+        "ReferencedUnityObjects": [],
+        "SerializedBytesString": "",
+        "Prefab": {
+            "instanceID": 0
+        },
+        "PrefabModificationsReferencedUnityObjects": [],
+        "PrefabModifications": [],
+        "SerializationNodes": []
+    },
+    "path": "Assets/Thirds/NodeEditor/GamePlayEditor/Saves/Jsons/测试/GamePlayGraph_136000114_【测试】玩法编辑器.json",
+    "nodes": [
+        {
+            "id": 0
+        },
+        {
+            "id": 1
+        }
+    ],
+    "edges": [
+        {
+            "GUID": "879b5a4d-9506-41ab-9dcf-2bf77d0262ef",
+            "inputNodeGUID": "20fa1406-ef7f-4539-9f55-59b3986dce5a",
+            "outputNodeGUID": "5e5279e5-2476-487c-a592-bf2107b6fec8",
+            "inputFieldName": "ID",
+            "outputFieldName": "PackedParamsOutput",
+            "inputPortIdentifier": "0",
+            "outputPortIdentifier": "0"
+        }
+    ],
+    "groups": [],
+    "stackNodes": [],
+    "pinnedElements": [],
+    "exposedParameters": [],
+    "serializedParameterList": [],
+    "stickyNotes": [],
+    "references": {
+        "version": 1,
+        "00000000": {
+            "type": {
+                "class": "TSET_ORDER_EXECUTE",
+                "ns": "NodeEditor",
+                "asm": "NodeEditor"
+            },
+            "data": {
+                "GUID": "5e5279e5-2476-487c-a592-bf2107b6fec8",
+                "computeOrder": 0,
+                "position": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 100.0,
+                    "height": 100.0
+                },
+                "expanded": false,
+                "debug": false,
+                "nodeLock": false,
+                "ID": 136000114,
+                "Desc": "",
+                "IsVisibleDesc": false,
+                "IsExport": true,
+                "IsTemplate": false,
+                "TemplateParams": [],
+                "TemplateParamsDesc": [],
+                "TableTash": "1A8860EFF685BDA7C6CD040879D05D41",
+                "ConfigJson": "{\"ID\":136000114,\"SkillEffectType\":1,\"Params\":[{\"Value\":1,\"ParamType\":0,\"Factor\":0}]}",
+                "Config2ID": "SkillEffectConfig_136000114",
+                "SkillEffectType": 1
+            }
+        },
+        "00000001": {
+            "type": {
+                "class": "RefConfigBaseNode",
+                "ns": "NodeEditor",
+                "asm": "NodeEditor"
+            },
+            "data": {
+                "GUID": "20fa1406-ef7f-4539-9f55-59b3986dce5a",
+                "computeOrder": 1,
+                "position": {
+                    "serializedVersion": "2",
+                    "x": 316.0,
+                    "y": 0.0,
+                    "width": 91.0,
+                    "height": 75.0
+                },
+                "expanded": false,
+                "debug": false,
+                "nodeLock": false,
+                "TableManagerName": "TableDR.SkillEffectConfigManager",
+                "ID": 1
+            }
+        },
+        "00000002": {
+            "type": {
+                "class": "Terminus",
+                "ns": "UnityEngine.DMAT",
+                "asm": "FAKE_ASM"
+            },
+            "data": {}
+        }
+    }
+}
