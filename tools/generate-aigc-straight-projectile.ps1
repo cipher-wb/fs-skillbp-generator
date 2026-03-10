@@ -321,6 +321,18 @@ Update-ConfigJson -Ref $castTemplateRef -Config $castTemplateConfig
 $legacyProjectileConfig.Params[3].Value = [int]$projectileResource.id
 Update-ConfigJson -Ref $legacyProjectileRef -Config $legacyProjectileConfig
 
+$projectileResourceEdges = @($graph.edges | Where-Object {
+    [string]$_.outputNodeGUID -eq [string]$legacyProjectileRef.data.GUID -and
+    [string]$_.outputFieldName -eq "PackedParamsOutput" -and
+    [string]$_.outputPortIdentifier -eq "3"
+})
+
+if ($projectileResourceEdges.Count -ne 1) {
+    throw "Expected exactly one projectile resource edge on port 3, got $($projectileResourceEdges.Count)."
+}
+
+$projectileResourceEdges[0].inputNodeGUID = [string]$projectileNodeRef.data.GUID
+
 $projectileTemplateConfig.Params[8].Value = [int]$hitFxResource.id
 Update-ConfigJson -Ref $projectileTemplateRef -Config $projectileTemplateConfig
 

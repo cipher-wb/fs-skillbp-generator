@@ -188,6 +188,7 @@ if ($graph.references -and $graph.references.RefIds) {
 $ridMap = @{}
 $guidMap = @{}
 $config2Ids = @{}
+$configMap = @{}
 
 foreach ($ref in $refIds) {
     if ($null -ne $ref.rid) {
@@ -257,6 +258,10 @@ foreach ($ref in $refIds) {
             continue
         }
 
+        if (-not [string]::IsNullOrWhiteSpace([string]$data.GUID)) {
+            $configMap[[string]$data.GUID] = $config
+        }
+
         switch ($configType) {
             "SkillConfig" {
                 if ([int]$config.SkillMainType -eq 0 -or [int]$config.SkillSubType -eq 0) {
@@ -317,6 +322,53 @@ foreach ($ref in $refIds) {
                 }
             }
         }
+    }
+}
+
+foreach ($edge in @($graph.edges)) {
+    $outputGuid = [string]$edge.outputNodeGUID
+    $inputGuid = [string]$edge.inputNodeGUID
+    if (-not $guidMap.ContainsKey($outputGuid) -or -not $guidMap.ContainsKey($inputGuid)) {
+        continue
+    }
+
+    if ([string]$edge.outputFieldName -ne "PackedParamsOutput") {
+        continue
+    }
+
+    $portText = [string]$edge.outputPortIdentifier
+    $portIndex = 0
+    if (-not [int]::TryParse($portText, [ref]$portIndex)) {
+        continue
+    }
+
+    $sourceRef = $guidMap[$outputGuid]
+    $targetRef = $guidMap[$inputGuid]
+    $sourceConfig2Id = [string]$sourceRef.data.Config2ID
+    $targetConfig2Id = [string]$targetRef.data.Config2ID
+    $targetType = ""
+    if (-not [string]::IsNullOrWhiteSpace($targetConfig2Id)) {
+        $targetType = $targetConfig2Id.Split("_")[0]
+    }
+
+    if ($targetType -ne "ModelConfig") {
+        continue
+    }
+
+    if (-not $configMap.ContainsKey($outputGuid)) {
+        continue
+    }
+
+    $sourceConfig = $configMap[$outputGuid]
+    $params = @($sourceConfig.Params)
+    if ($params.Count -le $portIndex) {
+        continue
+    }
+
+    $expectedId = [int]$params[$portIndex].Value
+    $actualId = [int]$targetRef.data.ID
+    if ($expectedId -ne $actualId) {
+        Add-Issue ([ref]$errors) "RESOURCE_EDGE_MISMATCH" "$sourceConfig2Id param[$portIndex] points to $expectedId but edge targets $targetConfig2Id."
     }
 }
 

@@ -11,6 +11,7 @@ $cases = @(
     @{ Path = (Join-Path $root "tests\\fixtures\\invalid-missing-ai-range.json"); Expected = "FAIL" },
     @{ Path = (Join-Path $root "tests\\fixtures\\invalid-missing-template-path.json"); Expected = "FAIL" },
     @{ Path = (Join-Path $root "tests\\fixtures\\invalid-unwhitelisted-buff.json"); Expected = "FAIL" },
+    @{ Path = (Join-Path $root "tests\\fixtures\\invalid-resource-edge-mismatch.json"); Expected = "FAIL" },
     @{ Path = (Join-Path $root "tests\\fixtures\\warn-fallback-only.json"); Expected = "WARN" }
 )
 

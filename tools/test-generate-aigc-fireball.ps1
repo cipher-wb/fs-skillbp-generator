@@ -73,6 +73,48 @@ if ([int]$addBuffCfg.Params[2].Value -ne 1080029) {
     exit 1
 }
 
+$projectileTemplateRef = $graph.references.RefIds | Where-Object { $_.data.Config2ID -eq "SkillEffectConfig_190012840" } | Select-Object -First 1
+$projectileResourceRef = $graph.references.RefIds | Where-Object { $_.data.Config2ID -eq "ModelConfig_19000726" } | Select-Object -First 1
+$legacyProjectileResourceRef = $graph.references.RefIds | Where-Object { $_.data.Config2ID -eq "ModelConfig_19000727" } | Select-Object -First 1
+if (-not $projectileTemplateRef -or -not $projectileResourceRef -or -not $legacyProjectileResourceRef) {
+    Write-Error "Generated graph is missing projectile template or resource nodes."
+    exit 1
+}
+
+$projectileTemplateCfg = ConvertFrom-JsonCompat -Json ([string]$projectileTemplateRef.data.ConfigJson) -Depth 64
+if ([int]$projectileTemplateCfg.Params[3].Value -ne 19000726) {
+    Write-Error "Expected projectile template param 3 to reference 19000726, got $($projectileTemplateCfg.Params[3].Value)"
+    exit 1
+}
+
+$projectileEdges = @($graph.edges | Where-Object {
+    $_.outputNodeGUID -eq $projectileTemplateRef.data.GUID -and
+    $_.outputFieldName -eq "PackedParamsOutput" -and
+    $_.outputPortIdentifier -eq "3"
+})
+
+if ($projectileEdges.Count -ne 1) {
+    Write-Error "Expected exactly one projectile resource edge on port 3, got $($projectileEdges.Count)"
+    exit 1
+}
+
+if ($projectileEdges[0].inputNodeGUID -ne $projectileResourceRef.data.GUID) {
+    Write-Error "Expected projectile resource edge to point to ModelConfig_19000726."
+    exit 1
+}
+
+$legacyEdges = @($graph.edges | Where-Object {
+    $_.outputNodeGUID -eq $projectileTemplateRef.data.GUID -and
+    $_.outputFieldName -eq "PackedParamsOutput" -and
+    $_.outputPortIdentifier -eq "3" -and
+    $_.inputNodeGUID -eq $legacyProjectileResourceRef.data.GUID
+})
+
+if ($legacyEdges.Count -ne 0) {
+    Write-Error "Legacy projectile node ModelConfig_19000727 is still connected on port 3."
+    exit 1
+}
+
 $auditOutput = & pwsh -NoProfile -File (Join-Path $PSScriptRoot "skill-json-auditor.ps1") -Path $outputPath
 $audit = $auditOutput | ConvertFrom-Json
 if ($audit.status -ne "PASS") {
